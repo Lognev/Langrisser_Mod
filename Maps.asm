@@ -23,7 +23,7 @@
  LevelSpriteType:
 	dc.w 1                 
 	dc.w 3
-	dc.w $A
+	dc.w $A				;for mod
 	dc.w 3
 	dc.w 3
 	dc.w 1
@@ -280,7 +280,7 @@
   Map_20:
      incbin Maps\Map_20.Map	 
 	 
-    dc.b 0
+    ;dc.b 0
  StartHeroes:	
 	dc.w 1                  
 	dc.w 7

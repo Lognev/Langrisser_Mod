@@ -75,8 +75,12 @@
 		</Pal_3>
 	</Pallete>
 	<Sets>
-		<Set_0 Name="Sprite5.spr : Sprite9.spr" Tex1="2" Tex2="1"/>
-		<Set_1 Name="Sprite5.spr : Sprite15.spr" Tex1="2" Tex2="21"/>
-		<Set_2 Name="Sprite188.spr : Sprite187.spr" Tex1="164" Tex2="165"/>  <Set_3 Name="Sprite5.spr : Sprite15.spr" Tex1="2" Tex2="21"/>
-  </Sets>
+		<Set_0 Name="Land5.spr : Land9.spr" Tex1="0" Tex2="2"/>
+		<Set_1 Name="Land5.spr : Land15.spr" Tex1="0" Tex2="5"/>
+		<Set_2 Name="Land188.spr : Land187.spr" Tex1="7" Tex2="6"/>
+		<Set_3 Name="Land5.spr : Land15.spr" Tex1="0" Tex2="5"/>
+	</Sets>
+	<PalSets>
+		<Set_0 name="Default" p1="0" p2="1" p3="2" p4="3" p5="4" p6="5" p7="6" p8="7" p9="8" p10="9" p11="10" p12="11" p13="12" p14="13" p15="14" p16="15"/>  <Set_1 name="1" p1="0" p2="1" p3="3" p4="10" p5="3" p6="14" p7="4" p8="5" p9="14" p10="2" p11="7" p12="9" p13="13" p14="12" p15="9" p16="15"/>
+  </PalSets>
 </Head>

@@ -199,27 +199,27 @@
   Sprite4:
    incbin Sprites\Sprite4.spr
   Sprite5:
-   incbin Sprites\Sprite5.spr
+   incbin Sprites\Land5.spr
   Sprite6:
    incbin Sprites\Sprite6.spr
   Sprite7:
-   incbin Sprites\Sprite7.spr
+   incbin Sprites\Land7.spr
   Sprite8:
    incbin Sprites\Sprite8.spr
   Sprite9:
-   incbin Sprites\Sprite9.spr
+   incbin Sprites\Land9.spr
   Sprite10:
    incbin Sprites\Sprite10.spr
   Sprite11:
-   incbin Sprites\Sprite11.spr
+   incbin Sprites\Land11.spr
   Sprite12:
    incbin Sprites\Sprite12.spr
   Sprite13:
-   incbin Sprites\Sprite13.spr
+   incbin Sprites\Land13.spr
   Sprite14:
    incbin Sprites\Sprite14.spr
   Sprite15:
-   incbin Sprites\Sprite15.spr
+   incbin Sprites\Land15.spr
   Sprite16:
    incbin Sprites\Sprite16.spr
   Sprite17:
@@ -563,6 +563,6 @@
   Sprite186:
    incbin Sprites\Sprite186.spr
   Sprite187:			; For lang2Mod
-   incbin Sprites\Sprite187.spr
+   incbin Sprites\Land187.spr
   Sprite188:			; For lang2Mod
-   incbin Sprites\Sprite188.spr
+   incbin Sprites\Land188.spr
