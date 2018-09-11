@@ -40,6 +40,25 @@ SetSelPal:			; For lang2Mod
 	dc.w $DFF
 
   
+ ; SetUnitPal:			; For lang2Mod
+  ; org $02BF84
+	; dc.w $000
+	; dc.w $888
+	; dc.w $222
+	; dc.w $EEE
+	; dc.w $E64
+	; dc.w $C00
+	; dc.w $6AC
+	; dc.w $248
+	; dc.w $2C2
+	; dc.w $062
+	; dc.w $0AE
+	; dc.w $00C
+	; dc.w $006
+	; dc.w $E0E
+	; dc.w $644
+	; dc.w $EC6
+	
 SetMapPal:			; For lang2Mod
   org $023DF4
 	dc.w $000

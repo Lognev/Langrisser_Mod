@@ -157,9 +157,25 @@
 	 
 Palette:
 	 
- Palette1: 
-    dc.w  0,$444,$666,$CAA,$6E8,$24E,$228, 4,$EC2,$E00,$EE
-	dc.w $46,$26A,$6AC, 0,$AEE
+ Palette1: ;Garret
+    ; dc.w  0,$444,$666,$CAA,$6E8,$24E,$228, 4,$EC2,$E00,$EE
+	; dc.w $46,$26A,$6AC, 0,$AEE
+	dc.w $000
+	dc.w $22E
+	dc.w $A82
+	dc.w $226
+	dc.w $48C
+	dc.w $8EE
+	dc.w $6CE
+	dc.w $46C
+	dc.w $24A
+	dc.w $AAA
+	dc.w $2CE
+	dc.w $666
+	dc.w $68E
+	dc.w $246
+	dc.w $222
+	dc.w $EEE
  Palette2:
     dc.w  0,$444,$888,$ECC,$2A0,$224,$222,$26,$8CE,$A,$EE
 	dc.w $246,$268,$48C, 0,$CEE
@@ -170,8 +186,25 @@ Palette:
     dc.w  0,$444,$666,$AAA,$A6E,$26,$4A,$8CE,$40,$28C,$4A0
 	dc.w $246,$48C,$ACE, 2,$CEE
  Palette5:
-    dc.w  0,$444,$666,$AAA,$E82,$628,$A2C,$E6E,$E20,$ECE,$EE
-	dc.w $46,$46A,$6AE, 2,$ACE
+    ; dc.w  0,$444,$666,$AAA,$E82,$628,$A2C,$E6E,$E20,$ECE,$EE
+	; dc.w $46,$46A,$6AE, 2,$ACE
+	dc.w $000
+	dc.w $444
+	dc.w $666
+	dc.w $AAA
+	dc.w $E82
+	dc.w $624
+	dc.w $C6A
+	dc.w $EAE
+	dc.w $E20
+	dc.w $ECE
+	dc.w $0EE
+	dc.w $226
+	dc.w $26A
+	dc.w $6AC
+	dc.w $000
+	dc.w $8CE
+	
  Palette6:
     dc.w  0,$444,$666,$AAA, 4,$C,$222,$26,$6AC,$A00,$EE,$46
 	dc.w $468,$6AC, 0,$AEE

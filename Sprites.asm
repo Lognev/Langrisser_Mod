@@ -188,6 +188,11 @@
   dc.l Sprite186
   dc.l Sprite187 ; For lang2Mod
   dc.l Sprite188 ; For lang2Mod
+  dc.l Sprite189 ; For lang2Mod  
+  dc.l Sprite190 ; For lang2Mod  
+  dc.l Sprite191 ; For lang2Mod  
+  dc.l Sprite192 ; For lang2Mod  
+   
   Sprite0:
    incbin Sprites\Sprite0.spr
   Sprite1:
@@ -566,3 +571,11 @@
    incbin Sprites\Land187.spr
   Sprite188:			; For lang2Mod
    incbin Sprites\Land188.spr
+  Sprite189:			; For lang2Mod
+   incbin Sprites\Land189.spr
+  Sprite190:			; For lang2Mod
+   incbin Sprites\Sprite187L.spr
+  Sprite191:			; For lang2Mod
+   incbin Sprites\Sprite188L.spr   
+  Sprite192:			; For lang2Mod
+   incbin Sprites\Sprite189L.spr      

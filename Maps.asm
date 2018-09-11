@@ -33,8 +33,8 @@
 	dc.w 1
 	dc.w 1
 	dc.w 7
-	dc.w 2
-	dc.w 2
+	dc.w $B	;for mod
+	dc.w $A
 	dc.w 3
 	dc.w 6
 	dc.w 3
@@ -118,11 +118,19 @@
 	dc.l UnknownParam3
 	
 	dc.w $A            
-	dc.w 4
-	dc.w $E
+	dc.w $BF
+	dc.w $BE
 	dc.w $BC
 	dc.w $BB
 	dc.l LandType10
+	dc.l UnknownParam2
+	
+	dc.w $B            
+	dc.w $C0
+	dc.w $A
+	dc.w $BD
+	dc.w $B
+	dc.l LandType2
 	dc.l UnknownParam2
 	
  LandType1:	
@@ -130,10 +138,15 @@
 	dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  8, $A, $D,  9, $A,  8,  9
 	dc.b  $D,  9, $A,  8, $A,  9,  9, $A,  8, $A,  8,  9, $A,  8,  8,  8
 	dc.b   8,  9
+ ; LandType1: ;lang2mod
+	; dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
+	; dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  8, $A, $D,  9, $A,  8,  9
+	; dc.b  $D,  9, $A,  8, $A,  9,  9, $A,  8, $A,  8,  9, $A,  8,  8,  8
+	; dc.b   8,  9	
 	
  LandType2:	
 	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
-	dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  9,  9,  9, $D,  0,  9,  9
+	dc.b   4,  4,  4,  9,  4,  4,  4, $B, $B,  9,  9,  9, $D,  0,  9,  9
 	dc.b   9,  9,  2,  9,  9,  9,  3,  2,  9,  9,  2,  2,  2,  0,  0,  0
 	dc.b   0,  0            
 	
