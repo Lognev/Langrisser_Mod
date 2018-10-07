@@ -9,6 +9,7 @@
 	; dc.b   1
 	; dc.b   1
 	; dc.b   1
+	;FFA49D lvlsel for lang2
 	include 'Maps.asm'	
 	include 'Palette.asm'
 	include 'Names.asm'
@@ -19,6 +20,113 @@
 	include 'Other2.asm'	
 	include 'LevelData.asm' 
 	include 'Sprites.asm'
+
+Movetobackground:
+	org $D192		
+	dc.w $EEEE	
+	
+Mapbackground:
+	org $B2B0		
+	dc.w $DDDD	
+	dc.w $DDDD
+	
+ShadowLandPal: ; For lang2Mod
+  org $023E54
+	dc.w $000
+	dc.w $256
+	dc.w $245
+	dc.w $123
+	dc.w $061
+	dc.w $051
+	dc.w $700
+	dc.w $400
+	dc.w $500
+	dc.w $200
+	dc.w $004
+	dc.w $430
+	dc.w $111
+	dc.w $322
+	dc.w $544
+	dc.w $677
+	
+SetTextColFirstM: ; For lang2Mod
+  org $021606
+	dc.w 0                  ; DATA XREF: sub_22DEE+2A4o
+	dc.w 4
+	dc.w 8
+	dc.w $EEE
+	dc.w $6E
+	dc.w $EE
+	dc.w $200
+	dc.w $202
+	dc.w $402
+	dc.w $602
+	dc.w $442
+	dc.w $884
+	dc.w $ECA
+	dc.w $200
+	dc.w $200
+	dc.w $EEE
+SetMapTypePal: ; For lang2Mod
+  org $C802
+  dc.w $838F
+  
+ SetMenuPal1:			; For lang2Mod
+  org $023D16
+	dc.w $000
+	dc.w $888
+	dc.w $222
+	dc.w $EEE
+	dc.w $E64
+	dc.w $C00
+	dc.w $6AC
+	dc.w $248
+	dc.w $2C2
+	dc.w $062
+	dc.w $0AE
+	dc.w $00C
+	dc.w $006
+	dc.w $E0E
+	dc.w $644
+	dc.w $EC6
+	
+ SetMenuPal:			; For lang2Mod
+  org $00FE6E
+	dc.w $000
+	dc.w $888
+	dc.w $222
+	dc.w $EEE
+	dc.w $E64
+	dc.w $C00
+	dc.w $6AC
+	dc.w $248
+	dc.w $2C2
+	dc.w $062
+	dc.w $0AE
+	dc.w $00C
+	dc.w $006
+	dc.w $E0E
+	dc.w $644
+	dc.w $EC6
+	
+ SetMenu2Pal:			; For lang2Mod
+  org $00FE8E
+	dc.w $000
+	dc.w $888
+	dc.w $222
+	dc.w $EEE
+	dc.w $E64
+	dc.w $C00
+	dc.w $6AC
+	dc.w $248
+	dc.w $2C2
+	dc.w $062
+	dc.w $0AE
+	dc.w $00C
+	dc.w $006
+	dc.w $E0E
+	dc.w $644
+	dc.w $EC6
 	
 SetSelPal:			; For lang2Mod
   org $023E34
@@ -39,25 +147,6 @@ SetSelPal:			; For lang2Mod
 	dc.w $B99
 	dc.w $DFF
 
-  
- ; SetUnitPal:			; For lang2Mod
-  ; org $02BF84
-	; dc.w $000
-	; dc.w $888
-	; dc.w $222
-	; dc.w $EEE
-	; dc.w $E64
-	; dc.w $C00
-	; dc.w $6AC
-	; dc.w $248
-	; dc.w $2C2
-	; dc.w $062
-	; dc.w $0AE
-	; dc.w $00C
-	; dc.w $006
-	; dc.w $E0E
-	; dc.w $644
-	; dc.w $EC6
 	
 SetMapPal:			; For lang2Mod
   org $023DF4
@@ -1374,14 +1463,175 @@ SetNewPointers:
  
 	org $490E		;set z80 prograam pointer
 	dc.l z80Program 
+	
+	org $95B4		;map pall sel
+	jmp SetLevelPal	
 
+	org $9624		;map pall sel
+	jmp SetLevelMapShPal	
+	
+	org $95E6		;map pall sel
+	jmp SetLevelPal95E6	
+	
+	org $95D6		;map pall sel
+	jmp SetLevelPal95D6	
+	
+	org $927e		;map pall sel
+	jmp SetLevelPal927e	
+	
+	org $9290		;map pall sel
+	jmp SetLevelSelPal		
+
+	; org $4AE8		;map pall sel
+	; jmp EnableShadow
+	
+	; org $4B1A		;map pall sel
+	; jmp DisableShadow	
 IncMusic:	
 	org $80000 
 	incbin music.bin
 
 z80Program:
 	incbin z80Program.bin
+   
+   dc.b 0 
+   
+Level_16Pal: ; For lang2Mod
+	dc.w $000
+	dc.w $4AC
+	dc.w $A84
+	dc.w $640
+	dc.w $222
+	dc.w $EEE
+	dc.w $EE6
+	dc.w $464
+	dc.w $00C
+	dc.w $006
+	dc.w $446
+	dc.w $220
+	dc.w $222
+	dc.w $644
+	dc.w $A88
+	dc.w $CEE
+	
+Level_16Palsel: ; For lang2Mod	
+	dc.w $000
+	dc.w $ACC  
+	dc.w $EA4  
+	dc.w $C60
+	dc.w $842
+	dc.w $EEE
+	dc.w $EEA
+	dc.w $A84
+	dc.w $62C
+	dc.w $626
+	dc.w $A66
+	dc.w $840
+	dc.w $842
+	dc.w $C64
+	dc.w $EA8
+	dc.w $EEE	
+	
+Level_16PalSh: ; For lang2Mod	
+	dc.w $000
+	dc.w $256
+	dc.w $542
+	dc.w $320
+	dc.w $111
+	dc.w $777
+	dc.w $773
+	dc.w $232
+	dc.w $006
+	dc.w $003
+	dc.w $223
+	dc.w $110
+	dc.w $111
+	dc.w $322
+	dc.w $544
+	dc.w $677
+; EnableShadow:
+	; move.l  d1,($FFFF80BA).l
+	; move.w #$8C8B,($C00004).l
+	; jmp $4AEE
+; DisableShadow:
+	; lea ($023B00).l,a5
+	; move.w #$8C8B,($C00004).l
+	; jmp $4B20
+	
+SetLevelSelPal:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewSelPal
+	lea ($023E34).l,a1
+	jmp $9296
 
+SetNewSelPal:
+	lea (Level_16Palsel).l,a1
+	jmp $9296
+;//
+SetLevelMapShPal:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewshPal
+	lea ($023E54).l,a1
+	jmp $962A 
+SetNewshPal:
+	lea (Level_16PalSh).l,a1
+	jmp $962A   	
+; //
+SetLevelPal95D6:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewLevelPal95D6
+	lea ($023DF4).l,a1
+	jmp $95DC
+
+SetNewLevelPal95D6:
+	lea (Level_16Pal).l,a1
+	jmp $95DC
+;//
+;//
+SetLevelPal95E6:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewLevelPal95E6
+	lea ($023DF4).l,a1
+	jmp $95EC
+
+SetNewLevelPal95E6:
+	lea (Level_16Pal).l,a1
+	jmp $95EC
+;//
+;//
+SetLevelPal927e:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewLevelPal927
+	lea ($023DF4).l,a1
+	jmp $9284
+
+SetNewLevelPal927:
+	lea (Level_16Pal).l,a1
+	jmp $9284
+;//	
+SetLevelPal:
+	move.w  ($FFFFAEAC).w,d1
+    cmpi.w #$0F,d1
+    beq SetNewPal
+	lea ($95C4).l,a2
+	jmp $95BA
+
+SetNewPal:
+	lea (L16Pal_info).l,a2
+	jmp $95BA
+	
+L16Pal_info:       
+	dc.w 2                  ; DATA XREF: sub_95B0+4o
+	dc.l Level_16Pal
+	dc.w 3
+	dc.l $23E54
+	dc.w $FFFF
+	
 Correctz80Program:	
     org z80Program+$143 
 	dc.b $77

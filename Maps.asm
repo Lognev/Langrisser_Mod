@@ -50,7 +50,7 @@
 	dc.w 8                
 	dc.w 5
 	dc.w 9
-	dc.l LandType1
+	dc.l LandType1;
 	dc.l UnknownParam1
 	
 	dc.w 2            
@@ -66,7 +66,7 @@
 	dc.w $E
 	dc.w 5
 	dc.w $F
-	dc.l LandType3
+	dc.l LandType3;
 	dc.l UnknownParam3
 	
 	dc.w 4            
@@ -122,7 +122,7 @@
 	dc.w $BE
 	dc.w $BC
 	dc.w $BB
-	dc.l LandType10
+	dc.l LandType10;
 	dc.l UnknownParam2
 	
 	dc.w $B            
@@ -133,29 +133,48 @@
 	dc.l LandType2
 	dc.l UnknownParam2
 	
- LandType1:	
-	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
-	dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  8, $A, $D,  9, $A,  8,  9
-	dc.b  $D,  9, $A,  8, $A,  9,  9, $A,  8, $A,  8,  9, $A,  8,  8,  8
-	dc.b   8,  9
- ; LandType1: ;lang2mod
+ ; LandType1:	
 	; dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
 	; dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  8, $A, $D,  9, $A,  8,  9
 	; dc.b  $D,  9, $A,  8, $A,  9,  9, $A,  8, $A,  8,  9, $A,  8,  8,  8
-	; dc.b   8,  9	
+	; dc.b   8,  9
+ LandType1: ;lang2mod
+	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  2,  4,  3,  2,  4
+	dc.b   2,  4,  1,  2,  4,  2,  4, $B, $B,  2, $A, $D,  2, $A,  8,  9
+	dc.b  $D,  9, $A,  8, $A,  9,  9, $A,  8, $A,  8,  9, $A,  2,  2,  8
+	dc.b   8,  9
 	
- LandType2:	
-	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
-	dc.b   4,  4,  4,  9,  4,  4,  4, $B, $B,  9,  9,  9, $D,  0,  9,  9
-	dc.b   9,  9,  2,  9,  9,  9,  3,  2,  9,  9,  2,  2,  2,  0,  0,  0
-	dc.b   0,  0            
+ ; LandType2:	
+	; dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
+	; dc.b   4,  4,  4,  9,  4,  4,  4, $B, $B,  9,  9,  9, $D,  0,  9,  9
+	; dc.b   9,  9,  2,  9,  9,  9,  3,  2,  9,  9,  2,  2,  2,  0,  0,  0
+	; dc.b   0,  0    
 	
- LandType3:	
-	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
-	dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  5,  5,  5,  5,  4,  5,  5
-	dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  1, $A,  2,  8,  8,  2
+ LandType2: ;lang2mod	
+	dc.b   6,  6,  6,  6,  7
+	dc.b   6,  4,  6,  6,  6
+	dc.b   4,  2,  4,  3,  2
+	dc.b   4,  2,  4,  1,  2
+	dc.b   4,  2,  4, $B, 9
+	
+	dc.b   9,  9,  $C, $C, $A
+	dc.b   9,  9,  9,  9,  3
+	dc.b   9,  9,  9,  2,  3
+	dc.b   9,  9,  3,  3,  3
+	dc.b   $A, 3, $A, $A, $A  
+	
+ ; LandType3:	
+	; dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  4,  4,  2,  3,  4
+	; dc.b   4,  4,  1,  9,  4,  4,  4, $B, $B,  5,  5,  5,  5,  4,  5,  5
+	; dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  1, $A,  2,  8,  8,  2
+	; dc.b   2,  2            ; 48
+	
+ LandType3: ;lang2mod	
+	dc.b   6,  6,  6,  6,  7,  6,  6,  6,  6,  6,  4,  2,  4,  3,  2,  4
+	dc.b   2,  4,  1,  2,  4,  2,  4, $B, $B,  5,  5,  5,  2,  2,  2,  2
+	dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  3, $A,  2,  8,  8,  2
 	dc.b   2,  2            ; 48
-
+	
  LandType4:	
 	dc.b   9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, $C,  2
 	dc.b   2,  9, $C, $C,  9,  9,  9,  9, $E,  8, $A, $D,  9, $A,  8,  9
@@ -173,6 +192,11 @@
 	dc.b   2,  9, $C, $C,  9,  9,  9,  9, $E,  5,  5,  5,  5,  4,  5,  5
 	dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  1, $A,  2,  8,  8,  2
 	dc.b   2,  2            ; 48
+ ; LandType6: ;lang2mod		
+	; dc.b   9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  9, $C,  2
+	; dc.b   2,  9, $C, $C,  9,  9,  9,  9, $E,  5,  5,  5,  5,  4,  5,  5
+	; dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  1, $A,  2,  8,  8,  2
+	; dc.b   2,  2            ; 48
 
  LandType7:		
 	dc.b   9, $A,  9, $E, $A,  9, $A,  9,  9,  9,  9, $A,  9, $A,  9,  9
@@ -193,10 +217,17 @@
 	dc.b   2,  2
 	
  LandType10:		
-	dc.b   9, $A,  9, $E, $A,  9, $A,  9,  9,  9,  9, $A,  9, $A,  9,  9
-	dc.b   9,  9, $A, $A,  9,  9,  9, $A, $A,  5,  5,  5,  5,  4,  5,  5
-	dc.b   5, $B, $B,  5,  5,  5, $D, $D,  8,  8,  1, $A,  2,  8,  8,  2	
-	dc.b   2,  2
+	dc.b   6,  6,  6,  6,  7
+	dc.b   6,  7,  6,  6,  6
+	dc.b   3,  3,  3,  3,  2
+	dc.b   3,  2,  3,  1,  2
+	dc.b   3,  2,  2,  2,  2
+	
+	dc.b   9,  9,  $C, $C, $A
+	dc.b   9,  9,   9,  9,  2
+	dc.b   9,  9,   9,  2,  3
+	dc.b   9,  9,   2,  2,  9
+	dc.b   $A, 2,  $A, $A, $A
 
  UnknownParam1:
 	dc.w $1B
@@ -235,20 +266,36 @@
 	dc.b   0
 	
  UnknownParam5:
-	dc.b $55 ; U            
-	dc.b $77 ; w
-	dc.b $66 ; f
-	dc.b $99 ; Ù
-	dc.b $44 ; D
-	dc.b $55 ; U
-	dc.b $AA ; ê
-	dc.b $BB ; ¬
-	dc.b $CC ; ¦
-	dc.b $55 ; U
+	; dc.b $55 ; U            
+	; dc.b $77 ; w
+	; dc.b $66 ; f
+	; dc.b $99 ; Ù
+	; dc.b $44 ; D
+	; dc.b $55 ; U
+	; dc.b $AA ; ê
+	; dc.b $BB ; ¬
+	; dc.b $CC ; ¦
+	; dc.b $55 ; U
+	; dc.b $11
+	; dc.b $22 ; "
+	; dc.b $44 ; D
+	; dc.b $DD ; ¦
+	; dc.b $EE ; þ
+	; dc.b 0
+	dc.b $EE;$55 ; U            
+	dc.b $55;$77 ; w
+	dc.b $22;$66 ; f
+	dc.b $44 ;$99 ; Ù
+	dc.b $33;$44 ; D
+	dc.b $EE;$55 ; U
+	dc.b $66 ;$AA ; ê
+	dc.b $99 ;$BB ; ¬
+	dc.b $DD;$CC ; ¦
+	dc.b $EE;$55 ; U
 	dc.b $11
 	dc.b $22 ; "
-	dc.b $44 ; D
-	dc.b $DD ; ¦
+	dc.b $33;$44 ; D
+	dc.b $CC;$DD ; ¦
 	dc.b $EE ; þ
 	dc.b 0
 	

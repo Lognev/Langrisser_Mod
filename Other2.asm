@@ -318,22 +318,39 @@ unk_39A1C:      dc.b   0                ; DATA XREF: sub_3310A+690Co
                 dc.b $6B ; k
                 dc.b $7B ; {
                 dc.b $FF
- dword_39A40:    dc.l $468               ; DATA XREF: ROM:00019004o
-                                         ; ROM:000193EEo
-                 dc.w $446
-                 dc.w $244
-                 dc.w $222
-                 dc.w $224
-                 dc.w $AE
-                 dc.w $48
-                 dc.w $280
-                 dc.w $40
-                 dc.w $E
-                 dc.w $E0E
-                 dc.w $E0E
-                 dc.w $400
-                 dc.w 0
-                 dc.w $EEE
+				
+ dword_39A40:   
+				; dc.l $468               ; DATA XREF: ROM:00019004o
+                 ; dc.w $446
+                 ; dc.w $244
+                 ; dc.w $222
+                 ; dc.w $224
+                 ; dc.w $AE
+                 ; dc.w $48
+                 ; dc.w $280
+                 ; dc.w $40
+                 ; dc.w $E
+                 ; dc.w $E0E
+                 ; dc.w $E0E
+                 ; dc.w $400
+                 ; dc.w 0
+                 ; dc.w $EEE
+	dc.w $000   ;for lang 2 mod
+	dc.w $888
+	dc.w $222
+	dc.w $EEE
+	dc.w $E64
+	dc.w $C00
+	dc.w $6AC
+	dc.w $248
+	dc.w $2C2
+	dc.w $062
+	dc.w $0AE
+	dc.w $00C
+	dc.w $006
+	dc.w $E0E
+	dc.w $644
+	dc.w $EC6				 
  aPlayer_0:      dc.b 'Player'           ; DATA XREF: ROM:000191C8o
                  dc.b $FF
                  dc.b   0

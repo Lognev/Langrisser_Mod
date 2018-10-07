@@ -247,9 +247,26 @@ Palette:
  Palette19:
     dc.w  0,$444,$666,$E44,$622,$224,$222,$42,$62,$A2,$EE
 	dc.w $C,$268,$48A, 0,$EEE
- Palette20:
-    dc.w  0,$444,$666,$AAA,$24,$400,$222,$E80,$80,$A00,$EE
-    dc.w $246,$468,$6AC, 0,$CEE
+ ; Palette20:
+    ; dc.w  0,$444,$666,$AAA,$24,$400,$222,$E80,$80,$A00,$EE
+    ; dc.w $246,$468,$6AC, 0,$CEE
+ Palette20: ;For Lang2Mod
+	dc.w $000
+	dc.w $242
+	dc.w $22C
+	dc.w $AEE
+	dc.w $6AC
+	dc.w $268
+	dc.w $246
+	dc.w $E84
+	dc.w $A64
+	dc.w $644
+	dc.w $A68
+	dc.w $2EE
+	dc.w $288
+	dc.w $846
+	dc.w $222
+	dc.w $EEE
  Palette21:
     dc.w  0,$444,$666,$AAA,$24,$40,$222,$A2,$80,$60,$EE,$246
 	dc.w $468,$6AC, 0,$CEE
@@ -271,9 +288,26 @@ Palette:
  Palette27:
     dc.w  0,$444,$666,$E44,$622,$224, 0, 2, 6,$2A,$EE,$C,$46
     dc.w $6A, 0,$EEE
- Palette28:
-    dc.w  0,$440,$862,$AAA,$42, 4,$200,$6A,$80,$28,$EE,$246
-    dc.w $468,$6AC, 0,$CEE
+ ; Palette28:
+    ; dc.w  0,$440,$862,$AAA,$42, 4,$200,$6A,$80,$28,$EE,$246
+    ; dc.w $468,$6AC, 0,$CEE
+ Palette28: ;For Lang2Mod
+	dc.w $000
+	dc.w $242
+	dc.w $22C
+	dc.w $AEE
+	dc.w $6AC
+	dc.w $268
+	dc.w $00C
+	dc.w $006
+	dc.w $004
+	dc.w $008
+	dc.w $A68
+	dc.w $2EE
+	dc.w $288
+	dc.w $046
+	dc.w $222
+	dc.w $EEE	
  Palette29:
     dc.w  0,$204,$206,$40A,$C0E,$A,$44,$24,$246, 2,$444,$666
 	dc.w $888,$CCC, 0,$EEE

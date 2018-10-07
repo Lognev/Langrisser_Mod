@@ -32,20 +32,36 @@
 	dc.w $644
 	dc.w $EC6	 
  Map_Sprite_pal_2:
-	 dc.w 0
-	 dc.w $C88
-	 dc.w $844
-	 dc.w $A66
-	 dc.w $844
-	 dc.w $ECC
-	 dc.w $C88
-	 dc.w $EAA
-	 dc.w $C88
-	 dc.w $EAA
-	 dc.w $A66
-	 dc.w $C88
-	 dc.w $A66
-	 dc.w $844
-	 dc.w 0
-	 dc.w $EEE
-	 
+	 ; dc.w 0
+	 ; dc.w $C88
+	 ; dc.w $844
+	 ; dc.w $A66
+	 ; dc.w $844
+	 ; dc.w $ECC
+	 ; dc.w $C88
+	 ; dc.w $EAA
+	 ; dc.w $C88
+	 ; dc.w $EAA
+	 ; dc.w $A66
+	 ; dc.w $C88
+	 ; dc.w $A66
+	 ; dc.w $844
+	 ; dc.w 0
+	 ; dc.w $EEE
+; ShadowUnitLandPal: ; For lang2Mod
+	dc.w $000
+	dc.w $999
+	dc.w $222
+	dc.w $FFF
+	dc.w $777
+	dc.w $111
+	dc.w $999
+	dc.w $555
+	dc.w $888
+	dc.w $444
+	dc.w $BBB
+	dc.w $444
+	dc.w $222
+	dc.w $666
+	dc.w $444
+	dc.w $BBB 
