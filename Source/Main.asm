@@ -1,5 +1,5 @@
 	org $0
-	incbin main.bin
+	incbin source/main.bin
 	
     
 	;org $23e96
@@ -10,16 +10,16 @@
 	; dc.b   1
 	; dc.b   1
 	;FFA49D lvlsel for lang2
-	include 'Maps.asm'	
-	include 'Palette.asm'
-	include 'Names.asm'
-	include 'MapSpritePal.asm'	
-	include 'HeroClassParams.asm'
-	include 'Other.asm'		
-	include 'Text.asm'	
-	include 'Other2.asm'	
-	include 'LevelData.asm' 
-	include 'Sprites.asm'
+	include 'source/Maps.asm'	
+	include 'source/Palette.asm'
+	include 'source/Names.asm'
+	include 'source/MapSpritePal.asm'	
+	include 'source/HeroClassParams.asm'
+	include 'source/Other.asm'		
+	include 'source/Text.asm'	
+	include 'source/Other2.asm'	
+	include 'source/LevelData.asm' 
+	include 'source/Sprites.asm'
 
 Movetobackground:
 	org $D192		
@@ -1489,10 +1489,10 @@ SetNewPointers:
 	; jmp DisableShadow	
 IncMusic:	
 	org $80000 
-	incbin music.bin
+	incbin source/music.bin
 
 z80Program:
-	incbin z80Program.bin
+	incbin source/z80Program.bin
    
    dc.b 0 
    
