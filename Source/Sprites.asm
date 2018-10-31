@@ -192,7 +192,11 @@
   dc.l Sprite190 ; For lang2Mod  
   dc.l Sprite191 ; For lang2Mod  
   dc.l Sprite192 ; For lang2Mod  
-   
+;  
+   incbin Sprites\Sprite0.spr
+   incbin Sprites\Sprite1.spr
+   incbin Sprites\Sprite2.spr
+;  помогло убрать баг на kega fusion
   Sprite0:
    incbin Sprites\Sprite0.spr
   Sprite1:
