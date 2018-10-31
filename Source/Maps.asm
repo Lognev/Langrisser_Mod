@@ -342,27 +342,46 @@
 	 
     ;dc.b 0
  StartHeroes:	
-	dc.w 1                  
-	dc.w 7
+	dc.w     1,    7,$FFFF,$FFFF ; DATA XREF: sub_B51E+4o
+	dc.w $FFFF,$FFFF,$FFFF,$FFFF
+	dc.w $FFFF,$FFFF,$FFFF,$FFFF
+	dc.w $FFFF,$FFFF,  $3E,  $22
+	dc.w   $22,  $22,  $22,  $23
+	dc.w   $23,  $23,  $23,  $22
+	dc.w   $23,  $24,  $24,  $25
+	dc.w   $27,  $27,  $27,  $27
+	dc.w   $27,  $27,  $27,  $27
+	dc.w   $26,  $28,  $29,  $2A
+	dc.w   $2A,  $2A,  $2A,  $2A
+	dc.w   $2A,  $2A,  $2A,  $2B
+	dc.w   $2B,  $2B,  $2B,  $2B
+	dc.w   $2B,  $2B,  $2B,  $2C
+	dc.w   $2D,  $2E,  $4B,  $4B
+	dc.w   $32,  $33,  $34,  $35
+	dc.w   $36,  $39,  $3B,  $3C
+	dc.w   $2F,  $30,  $31,  $37
+	dc.w   $38,  $3A,  $3D,  $3D
+	dc.w   $4B,    0
 	
- UnknownParam6:	
- word_2ABCA:      
-	dc.w $FFFF              ; 0
+HeroLevel:      
+	dc.w 0     				; Garret
+	dc.w 1
+	dc.w $18                ; Baldarov
+	dc.w 9
+	dc.w 0                  ; Calais
+	dc.w 5
+	dc.w 0                  ; Mina
+	dc.w 3
+	dc.w 0                  ; Sabra
+	dc.w 4
+	dc.w 0                  ; Tiberon
+	dc.w 5
+	dc.w 0                  ; Thorne
+	dc.w 2
+	dc.w 0                  ; Bayard
+	dc.w 6
+	dc.w $C
+	dc.w 9
+	dc.w $30                ; Lance
+	dc.w 9
 	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w $FFFF
-	dc.w   $3E,  $22,  $22,  $22,  $22,  $23,  $23,  $23,  $23,  $22,  $23,  $24,  $24,  $25,  $27,  $27
-	dc.w   $27,  $27,  $27,  $27,  $27,  $27,  $26,  $28,  $29,  $2A,  $2A,  $2A,  $2A,  $2A,  $2A,  $2A
-	dc.w   $2A,  $2B,  $2B,  $2B,  $2B,  $2B,  $2B,  $2B,  $2B,  $2C,  $2D,  $2E,  $4B,  $4B,  $32,  $33
-	dc.w   $34,  $35,  $36,  $39,  $3B,  $3C,  $2F,  $30,  $31,  $37,  $38,  $3A,  $3D,  $3D,  $4B,    0
-word_2AC62:     
-	dc.w     0,    1,  $18,    9,    0,    5,    0,    3,    0,    4,    0,    5,    0,    2,    0,    6
-	dc.w    $C,    9,  $30,    9,$FFFF

@@ -334,23 +334,9 @@ aBarbarian:     dc.b 'Barbarian      '
                 dc.b $FF
 aElemental:     dc.b 'Elemental      '
                 dc.b $FF
-aNames:
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
-                dc.b   0
+ItemNames:
+				dc.b   0,  0,  0,  0,  0,  0,  0,  0; 0
+				dc.b   0,  0,  0,  0,  0,  0,  0,  0; 8
 aWarsong_0:     dc.b 'Warsong '         
                 dc.b $FF
 aG_sword:       dc.b '       G.Sword '
@@ -379,7 +365,9 @@ aAmulet:        dc.b '       Amulet  '
 				
 word_2BE5A:     dc.w  0, 4, 2, 5, 8, 0, 2, 0, 0, 0
 word_2BE6E:     dc.w  0, 4, 0, 3,$FFF6, 4, 0, 2, 0, 2
-byte_2BE82:     dc.b  0                 
+
+Skill_names:     
+			 dc.b   0                 
 			 dc.b   0
 			 dc.b   0
 			 dc.b   0
@@ -425,37 +413,21 @@ aConfusion:     dc.b '   Confusion   '
 			 dc.b $20
 			 dc.b $20
 			 
-unk_2BF62:   dc.b   0                
-			 dc.b   0
-			 dc.b   0
-			 dc.b   2
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b $10
-			 dc.b   0
-			 dc.b   8
-			 dc.b   0
-			 dc.b   8
-			 dc.b   0
-			 dc.b   2
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b   8
-			 dc.b   0
-			 dc.b   4
-			 dc.b   0
-			 dc.b   8
-			 dc.b   0
-			 dc.b   0
-			 dc.b   0
-			 dc.b   0
-			 dc.b   0
-			 dc.b   0
+unk_2BF62:                  
+			dc.w 0
+			dc.w 2
+			dc.w 4
+			dc.w 4
+			dc.w 4
+			dc.w 4
+			dc.w $10
+			dc.w 8
+			dc.w 8
+			dc.w 2
+			dc.w 4
+			dc.w 8
+			dc.w 4
+			dc.w 8
+			dc.w 0
+			dc.w 0
+			dc.w 0

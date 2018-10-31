@@ -1228,7 +1228,7 @@ SetNewPointers:
 	dc.l byte_2F3A4
 	
 	org $CD88
-	dc.l word_2F330
+	dc.l LevelSoundIndexes
 	
 	org $C220
 	dc.l word_2F2C2
@@ -1237,10 +1237,10 @@ SetNewPointers:
 	dc.l word_2C542
 	
 	org $B794
-	dc.l word_2C48E
+	dc.l Hero_Icons
 	
 	org $B764
-	dc.l word_2C48E
+	dc.l Hero_Icons
 	
 	org $20CE6
 	dc.l word_2C48C	
@@ -1318,7 +1318,7 @@ SetNewPointers:
 	dc.l unk_2BF62
 	
 	org $10828
-	dc.l byte_2BE82
+	dc.l Skill_names
 
 	org $DA9A
 	dc.l word_2BE6E
@@ -1426,7 +1426,7 @@ SetNewPointers:
 	dc.l asc_2B80A
 	
 	org $135F2 
-	dc.l aNames
+	dc.l ItemNames
 
 	org $C03E 
 	dc.l PalettePointers
@@ -1456,7 +1456,7 @@ SetNewPointers:
 	dc.l StartHeroes
 	
 	org $b538 
-	dc.l word_2AC62
+	dc.l HeroLevel
 	
 	org $58E4    ;set sprites pointer
 	dc.l Sprites
