@@ -1,110 +1,111 @@
-Other1:; LandBattle
-  dc.l Other1_1
-  dc.l Other1_2
-  dc.l Other1_3
-  dc.l Other1_4
-  dc.l Other1_5
-  dc.l Other1_6
-  dc.l Other1_7
-  dc.l Other1_8
-  dc.l Other1_9
-  dc.l Other1_10
-  dc.l Other1_11
-  dc.l Other1_12
-  dc.l Other1_13
-  dc.l Other1_14
-  dc.l Other1_15
-  dc.l Other1_16
-  dc.l Other1_17
+Unit_Run_Path:; LandBattle
+  dc.l Unit_Run_Path_1
+  dc.l Unit_Run_Path_2
+  dc.l Unit_Run_Path_3
+  dc.l Unit_Run_Path_4
+  dc.l Unit_Run_Path_5
+  dc.l Unit_Run_Path_6
+  dc.l Unit_Run_Path_7
+  dc.l Unit_Run_Path_8
+  dc.l Unit_Run_Path_9
+  dc.l Unit_Run_Path_10
+  dc.l Unit_Run_Path_11
+  dc.l Unit_Run_Path_12
+  dc.l Unit_Run_Path_13
+  dc.l Unit_Run_Path_14
+  dc.l Unit_Run_Path_15
+  dc.l Unit_Run_Path_16
+  dc.l Unit_Run_Path_17
   
-Other2:
-  dc.l Other2_1
-  dc.l Other2_2
-  dc.l Other2_3
-  dc.l Other2_4
-  dc.l Other2_5
-  dc.l Other2_6
-  dc.l Other2_7
-  dc.l Other2_8
-  dc.l Other2_9
-  dc.l Other2_10
-  dc.l Other2_11
-  dc.l Other2_12
-  dc.l Other2_13
-  dc.l Other2_14
-  dc.l Other2_15
-  dc.l Other2_16
-  dc.l Other2_17
-  ; dc.l Other2_17
+Landmap:
+  dc.l Landmap_1
+  dc.l Landmap_2
+  dc.l Landmap_3
+  dc.l Landmap_4
+  dc.l Landmap_5
+  dc.l Landmap_6
+  dc.l Landmap_7
+  dc.l Landmap_8
+  dc.l Landmap_9
+  dc.l Landmap_10
+  dc.l Landmap_11
+  dc.l Landmap_12
+  dc.l Landmap_13
+  dc.l Landmap_14
+  dc.l Landmap_15
+  dc.l Landmap_16
+  dc.l Landmap_17
+  ; dc.l Landmap_17
 
-Other1_1:
-	incbin Other\2f4aa
-Other1_2:
-	incbin Other\2f52a
-Other1_3:
-	incbin Other\2f5aa
-Other1_4:
-	incbin Other\2f62a
-Other1_5:
-	incbin Other\2f6aa
-Other1_6:
-	incbin Other\2f72a
-Other1_7:
-	incbin Other\2f7aa
-Other1_8:
-	incbin Other\2f82a
-Other1_9:
-	incbin Other\2f8aa
-Other1_10:
-	incbin Other\2f92a
-Other1_11:
-	incbin Other\2f9aa
-Other1_12:
-	incbin Other\2fa2a
-Other1_13:
-	incbin Other\2faaa
-Other1_14:
-	incbin Other\2fb2a
-Other1_15:
-	incbin Other\2fbaa
-Other1_16:
-	incbin Other\2fc2a
-Other1_17:
-	incbin Other\2fcaa
-Other2_1:
-	incbin Other\2fd2a
-Other2_2:
-	incbin Other\2fe22
-Other2_3:
-	incbin Other\2ff20
-Other2_4:
-	incbin Other\3002e
-Other2_5:
-	incbin Other\3012c
-Other2_6:
-	incbin Other\3022c
-Other2_7:
-	incbin Other\3033a
-Other2_8:
-	incbin Other\3043c
-Other2_9:
-	incbin Other\3053E
-Other2_10:
-	incbin Other\305E2
-Other2_11:
-	incbin Other\30680
-Other2_12:
-	incbin Other\3074c
-Other2_13:
-	incbin Other\3081c
-Other2_14:
-	incbin Other\30900
-Other2_15:
-	incbin Other\3096a
-Other2_16:
-	incbin Other\30a72
-Other2_17:
-	incbin Other\30bba
+Unit_Run_Path_1:
+	incbin Landmap\RunPath\Unit_Run_Path_1.lts
+Unit_Run_Path_2:
+	incbin Landmap\RunPath\Unit_Run_Path_2.lts
+Unit_Run_Path_3:
+	incbin Landmap\RunPath\Unit_Run_Path_3.lts
+Unit_Run_Path_4:
+	incbin Landmap\RunPath\Unit_Run_Path_4.lts
+Unit_Run_Path_5:
+	incbin Landmap\RunPath\Unit_Run_Path_5.lts
+Unit_Run_Path_6:
+	incbin Landmap\RunPath\Unit_Run_Path_6.lts
+Unit_Run_Path_7:
+	incbin Landmap\RunPath\Unit_Run_Path_7.lts
+Unit_Run_Path_8:
+	incbin Landmap\RunPath\Unit_Run_Path_8.lts
+Unit_Run_Path_9:
+	incbin Landmap\RunPath\Unit_Run_Path_9.lts
+Unit_Run_Path_10:
+	incbin Landmap\RunPath\Unit_Run_Path_10.lts
+Unit_Run_Path_11:
+	incbin Landmap\RunPath\Unit_Run_Path_11.lts
+Unit_Run_Path_12:
+	incbin Landmap\RunPath\Unit_Run_Path_12.lts
+Unit_Run_Path_13:
+	incbin Landmap\RunPath\Unit_Run_Path_13.lts
+Unit_Run_Path_14:
+	incbin Landmap\RunPath\Unit_Run_Path_14.lts
+Unit_Run_Path_15:
+	incbin Landmap\RunPath\Unit_Run_Path_15.lts
+Unit_Run_Path_16:
+	incbin Landmap\RunPath\Unit_Run_Path_16.lts
+Unit_Run_Path_17:
+	incbin Landmap\RunPath\Unit_Run_Path_17.lts
+	
+Landmap_1:
+	incbin Landmap\Maps\Landmap_1.lmap
+Landmap_2:
+	incbin Landmap\Maps\Landmap_2.lmap
+Landmap_3:
+	incbin Landmap\Maps\Landmap_3.lmap
+Landmap_4:
+	incbin Landmap\Maps\Landmap_4.lmap
+Landmap_5:
+	incbin Landmap\Maps\Landmap_5.lmap
+Landmap_6:
+	incbin Landmap\Maps\Landmap_6.lmap
+Landmap_7:
+	incbin Landmap\Maps\Landmap_7.lmap
+Landmap_8:
+	incbin Landmap\Maps\Landmap_8.lmap
+Landmap_9:
+	incbin Landmap\Maps\Landmap_9.lmap
+Landmap_10:
+	incbin Landmap\Maps\Landmap_10.lmap
+Landmap_11:
+	incbin Landmap\Maps\Landmap_11.lmap
+Landmap_12:
+	incbin Landmap\Maps\Landmap_12.lmap
+Landmap_13:
+	incbin Landmap\Maps\Landmap_13.lmap
+Landmap_14:
+	incbin Landmap\Maps\Landmap_14.lmap
+Landmap_15:
+	incbin Landmap\Maps\Landmap_15.lmap
+Landmap_16:
+	incbin Landmap\Maps\Landmap_16.lmap
+Landmap_17:
+	incbin Landmap\Maps\Landmap_17.lmap
 	
 byte_30CF6:  
 	dc.b 0

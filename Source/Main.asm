@@ -1201,10 +1201,10 @@ SetNewPointers:
 	dc.l UnitPanel
 	
 	org $DFCE
-	dc.l Other2
+	dc.l Landmap
 
 	org $DDAE
-	dc.l Other1
+	dc.l Unit_Run_Path
 	
 	org $DF1C
 	dc.l word_2F402
