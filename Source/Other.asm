@@ -1,112 +1,3 @@
-Unit_Run_Path:; LandBattle
-  dc.l Unit_Run_Path_1
-  dc.l Unit_Run_Path_2
-  dc.l Unit_Run_Path_3
-  dc.l Unit_Run_Path_4
-  dc.l Unit_Run_Path_5
-  dc.l Unit_Run_Path_6
-  dc.l Unit_Run_Path_7
-  dc.l Unit_Run_Path_8
-  dc.l Unit_Run_Path_9
-  dc.l Unit_Run_Path_10
-  dc.l Unit_Run_Path_11
-  dc.l Unit_Run_Path_12
-  dc.l Unit_Run_Path_13
-  dc.l Unit_Run_Path_14
-  dc.l Unit_Run_Path_15
-  dc.l Unit_Run_Path_16
-  dc.l Unit_Run_Path_17
-  
-Landmap:
-  dc.l Landmap_1
-  dc.l Landmap_2
-  dc.l Landmap_3
-  dc.l Landmap_4
-  dc.l Landmap_5
-  dc.l Landmap_6
-  dc.l Landmap_7
-  dc.l Landmap_8
-  dc.l Landmap_9
-  dc.l Landmap_10
-  dc.l Landmap_11
-  dc.l Landmap_12
-  dc.l Landmap_13
-  dc.l Landmap_14
-  dc.l Landmap_15
-  dc.l Landmap_16
-  dc.l Landmap_17
-  ; dc.l Landmap_17
-
-Unit_Run_Path_1:
-	incbin Landmap\RunPath\Unit_Run_Path_1.lts
-Unit_Run_Path_2:
-	incbin Landmap\RunPath\Unit_Run_Path_2.lts
-Unit_Run_Path_3:
-	incbin Landmap\RunPath\Unit_Run_Path_3.lts
-Unit_Run_Path_4:
-	incbin Landmap\RunPath\Unit_Run_Path_4.lts
-Unit_Run_Path_5:
-	incbin Landmap\RunPath\Unit_Run_Path_5.lts
-Unit_Run_Path_6:
-	incbin Landmap\RunPath\Unit_Run_Path_6.lts
-Unit_Run_Path_7:
-	incbin Landmap\RunPath\Unit_Run_Path_7.lts
-Unit_Run_Path_8:
-	incbin Landmap\RunPath\Unit_Run_Path_8.lts
-Unit_Run_Path_9:
-	incbin Landmap\RunPath\Unit_Run_Path_9.lts
-Unit_Run_Path_10:
-	incbin Landmap\RunPath\Unit_Run_Path_10.lts
-Unit_Run_Path_11:
-	incbin Landmap\RunPath\Unit_Run_Path_11.lts
-Unit_Run_Path_12:
-	incbin Landmap\RunPath\Unit_Run_Path_12.lts
-Unit_Run_Path_13:
-	incbin Landmap\RunPath\Unit_Run_Path_13.lts
-Unit_Run_Path_14:
-	incbin Landmap\RunPath\Unit_Run_Path_14.lts
-Unit_Run_Path_15:
-	incbin Landmap\RunPath\Unit_Run_Path_15.lts
-Unit_Run_Path_16:
-	incbin Landmap\RunPath\Unit_Run_Path_16.lts
-Unit_Run_Path_17:
-	incbin Landmap\RunPath\Unit_Run_Path_17.lts
-	
-Landmap_1:
-	incbin Landmap\Maps\Landmap_1.lmap
-Landmap_2:
-	incbin Landmap\Maps\Landmap_2.lmap
-Landmap_3:
-	incbin Landmap\Maps\Landmap_3.lmap
-Landmap_4:
-	incbin Landmap\Maps\Landmap_4.lmap
-Landmap_5:
-	incbin Landmap\Maps\Landmap_5.lmap
-Landmap_6:
-	incbin Landmap\Maps\Landmap_6.lmap
-Landmap_7:
-	incbin Landmap\Maps\Landmap_7.lmap
-Landmap_8:
-	incbin Landmap\Maps\Landmap_8.lmap
-Landmap_9:
-	incbin Landmap\Maps\Landmap_9.lmap
-Landmap_10:
-	incbin Landmap\Maps\Landmap_10.lmap
-Landmap_11:
-	incbin Landmap\Maps\Landmap_11.lmap
-Landmap_12:
-	incbin Landmap\Maps\Landmap_12.lmap
-Landmap_13:
-	incbin Landmap\Maps\Landmap_13.lmap
-Landmap_14:
-	incbin Landmap\Maps\Landmap_14.lmap
-Landmap_15:
-	incbin Landmap\Maps\Landmap_15.lmap
-Landmap_16:
-	incbin Landmap\Maps\Landmap_16.lmap
-Landmap_17:
-	incbin Landmap\Maps\Landmap_17.lmap
-	
 byte_30CF6:  
 	dc.b 0
 	dc.b $13
@@ -1360,110 +1251,89 @@ byte_31264:
 	dc.b $FF
 
 	
-byte_3127A:     
-	dc.b   0                 
-	dc.b   2
-	dc.b   0
-	dc.b   2
-	dc.b   0
-	dc.b   2
-	dc.b   0
-	dc.b   3
-	dc.b   0 
-	dc.b   5
-	dc.b   0
-	dc.b   6
-	dc.b   0
-	dc.b   6
-	dc.b   0
-	dc.b   7
-	dc.b   0
-	dc.b   7
-	dc.b   0
-	dc.b   7
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   7
-	dc.b   0
-	dc.b   6
-	dc.b   0
-	dc.b   4
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   8
-	dc.b   0
-	dc.b   8
-	
-dword_312A2: 	
-	dc.l StartPos1
-	dc.l StartPos2
-	dc.l StartPos3
-	dc.l StartPos4
-	dc.l StartPos5
-	dc.l StartPos6
-	dc.l StartPos7
-	dc.l StartPos8
-	dc.l StartPos9
-	dc.l StartPos10
-	dc.l StartPos11
-	dc.l StartPos12
-	dc.l StartPos13
-	dc.l StartPos14
-	dc.l StartPos15
-	dc.l StartPos16
-	dc.l StartPos17
-	dc.l StartPos18
-	dc.l StartPos19
-	dc.l StartPos20
-  
- StartPos1:
-    dc.w    $D,    3,   $F,    3,  $1E,  $1E
- StartPos2:
-    dc.w    $C,  $34,   $C,  $38
- StartPos3:
-    dc.w   $11,  $19,  $23,    8
- StartPos4:
-    dc.w   $15,   $D,  $13,   $F,  $11,  $11
- StartPos5:
-    dc.w     2,  $12,    2,  $18,    6,  $1C,   $B,  $1D,  $14,  $1D
- StartPos6:
-    dc.w     3,    8,    4,   $B,    3,   $E,  $1C,   $B,  $1C,   $F,  $1C,  $13
- StartPos7:
-    dc.w    $F,  $17,  $12,  $19,  $15,  $1B,  $18,  $1C,  $1C,  $1D,  $20,  $1E
- StartPos8:
-    dc.w   $1E,  $10,  $1E,  $15,  $1E,  $19,  $1D,  $1D,  $19,  $1E,  $15,  $1E,  $11,  $1E
- StartPos9:
-    dc.w    $C,  $17,  $14,  $18,  $19,  $1B,  $1E,  $1D,  $24,  $1D,  $2A,  $1D,  $31,  $18; 0
- StartPos10:
-    dc.w     5,  $13,    8,  $14,   $C,  $13,   $B,  $16,    9,  $19,   $E,  $17,  $10,  $1A; 0
- StartPos11:
-    dc.w   $11,  $13,   $E,  $17,  $2A,  $12,  $2F,  $16,  $33,  $2B,  $2F,  $2D,  $12,  $2E,   $E,  $2D; 0
- StartPos12:
-    dc.w     5,    3,    9,    3,    6,    8,    8,    8,  $16,   $D,  $1A,   $D,  $16,  $11,  $1A,  $11; 0
- StartPos13:
-    dc.w    $C,  $2B,  $12,  $2B,   $F,  $2E,   $C,  $31,   $D,  $34,  $10,  $35,  $14,  $34; 0
- StartPos14:
-    dc.w   $14,   $D,  $18,   $F,  $21,   $A,  $29,   $D,  $27,  $15,  $2D,  $13; 0
- StartPos15:
-    dc.w     7,  $14,    8,  $1A,    1,  $1B,    2,  $1E; 0
- StartPos16:
-    dc.w   $11,    3,  $14,    6,  $18,    5,  $1C,    6,  $1E,    9,  $1D,    2,  $1C,   $C,  $18,   $E; 0
- StartPos17:
-    dc.w     8,  $38,   $D,  $38,  $12,  $38,  $17,  $38,    8,  $3C,   $D,  $3C,  $12,  $3C,  $17,  $3C; 0
- StartPos18:
-    dc.w   $1C,  $13,  $1C,  $16,  $1C,  $19,  $1C,  $1C,  $1E,  $13,  $1E,  $16,  $1E,  $19,  $1E,  $1C; 0
- StartPos19:
-    dc.w     2,  $17,    2,  $13,    2,   $F,    2,   $B,    6,    9,    9,   $A,    9,    7,    9,    4; 0
- StartPos20:
-    dc.w   $17,  $31,  $19,  $3A,  $1B,  $33,  $1D,  $3B,  $22,  $3B,  $24,  $33,  $26,  $3A,  $28,  $31; 0
+Start_pos_cnt:
+	incbin ScenarioData\Scenario_1\StartPositionCnt
+	incbin ScenarioData\Scenario_2\StartPositionCnt
+	incbin ScenarioData\Scenario_3\StartPositionCnt
+	incbin ScenarioData\Scenario_4\StartPositionCnt
+	incbin ScenarioData\Scenario_5\StartPositionCnt
+	incbin ScenarioData\Scenario_6\StartPositionCnt
+	incbin ScenarioData\Scenario_7\StartPositionCnt
+	incbin ScenarioData\Scenario_8\StartPositionCnt
+	incbin ScenarioData\Scenario_9\StartPositionCnt
+	incbin ScenarioData\Scenario_10\StartPositionCnt
+	incbin ScenarioData\Scenario_11\StartPositionCnt
+	incbin ScenarioData\Scenario_12\StartPositionCnt
+	incbin ScenarioData\Scenario_13\StartPositionCnt
+	incbin ScenarioData\Scenario_14\StartPositionCnt
+	incbin ScenarioData\Scenario_15\StartPositionCnt
+	incbin ScenarioData\Scenario_16\StartPositionCnt
+	incbin ScenarioData\Scenario_17\StartPositionCnt
+	incbin ScenarioData\Scenario_18\StartPositionCnt
+	incbin ScenarioData\Scenario_19\StartPositionCnt
+	incbin ScenarioData\Scenario_20\StartPositionCnt
+
+Start_positions:
+	dc.l Start_pos_l1       ; DATA XREF: sub_1101E+2Eo
+	dc.l Start_pos_l2
+	dc.l Start_pos_l3
+	dc.l Start_pos_l4
+	dc.l Start_pos_l5
+	dc.l Start_pos_l6
+	dc.l Start_pos_l7
+	dc.l Start_pos_l8
+	dc.l Start_pos_l9
+	dc.l Start_pos_l10
+	dc.l Start_pos_l11
+	dc.l Start_pos_l12
+	dc.l Start_pos_l13
+	dc.l Start_pos_l14
+	dc.l Start_pos_l15
+	dc.l Start_pos_l16
+	dc.l Start_pos_l17
+	dc.l Start_pos_l18
+	dc.l Start_pos_l19
+	dc.l Start_pos_l20
+Start_pos_l1:
+	incbin ScenarioData\Scenario_1\StartPositions
+Start_pos_l2:
+	incbin ScenarioData\Scenario_2\StartPositions
+Start_pos_l3:
+	incbin ScenarioData\Scenario_3\StartPositions
+Start_pos_l4:
+	incbin ScenarioData\Scenario_4\StartPositions
+Start_pos_l5:
+	incbin ScenarioData\Scenario_5\StartPositions
+Start_pos_l6:
+	incbin ScenarioData\Scenario_6\StartPositions
+Start_pos_l7:
+	incbin ScenarioData\Scenario_7\StartPositions
+Start_pos_l8:
+	incbin ScenarioData\Scenario_8\StartPositions
+Start_pos_l9:
+	incbin ScenarioData\Scenario_9\StartPositions
+Start_pos_l10:
+	incbin ScenarioData\Scenario_10\StartPositions
+Start_pos_l11:
+	incbin ScenarioData\Scenario_11\StartPositions
+Start_pos_l12:
+	incbin ScenarioData\Scenario_12\StartPositions
+Start_pos_l13:
+	incbin ScenarioData\Scenario_13\StartPositions
+Start_pos_l14:
+	incbin ScenarioData\Scenario_14\StartPositions
+Start_pos_l15:
+	incbin ScenarioData\Scenario_15\StartPositions
+Start_pos_l16:
+	incbin ScenarioData\Scenario_16\StartPositions
+Start_pos_l17:
+	incbin ScenarioData\Scenario_17\StartPositions
+Start_pos_l18:
+	incbin ScenarioData\Scenario_18\StartPositions
+Start_pos_l19:
+	incbin ScenarioData\Scenario_19\StartPositions
+Start_pos_l20:
+	incbin ScenarioData\Scenario_20\StartPositions
 	
  word_314D6:     
 	dc.w 2                                
@@ -2070,212 +1940,190 @@ byte_315C6:
 	dc.b   0,  0,$FF,$FF,$FF,$FE,$FF,$FF,  0,  0,  0,  1,  0,  2,  0,  3
 	dc.b   0,  2,  0,  1,  0,  0,$FF,$FF,$FF,$FE,$FF,$FD,$FF,$FE,$FF,$FF	
 	
-mapsinfo:      
-	dc.l f31C6A             
-	dc.l f31CE2
-	dc.l f31D78
-	dc.l f31E4A
-	dc.l f31EE0
-	dc.l f31F76
-	dc.l f3202A
-	dc.l f320DE
-	dc.l f32174
-	dc.l f3220A
-	dc.l f322BE
-	dc.l f32354
-	dc.l f32444
-	dc.l f32516
-	dc.l f32534
-	dc.l f325AC
-	dc.l f3269C
-	dc.l f3278C
-	dc.l f3287C
-	dc.l f3296C
+Enemyinfo:      
+	dc.l Scenario_1_enemys             
+	dc.l Scenario_2_enemys
+	dc.l Scenario_3_enemys
+	dc.l Scenario_4_enemys
+	dc.l Scenario_5_enemys
+	dc.l Scenario_6_enemys
+	dc.l Scenario_7_enemys
+	dc.l Scenario_8_enemys
+	dc.l Scenario_9_enemys
+	dc.l Scenario_10_enemys
+	dc.l Scenario_11_enemys
+	dc.l Scenario_12_enemys
+	dc.l Scenario_13_enemys
+	dc.l Scenario_14_enemys
+	dc.l Scenario_15_enemys
+	dc.l Scenario_16_enemys
+	dc.l Scenario_17_enemys
+	dc.l Scenario_18_enemys
+	dc.l Scenario_19_enemys
+	dc.l Scenario_20_enemys
 	
-word_31C42:     
-	dc.w 4           
-	dc.w 5
-	dc.w 7
-	dc.w 5
-	dc.w 5
-	dc.w 6
-	dc.w 6
-	dc.w 5
-	dc.w 5
-	dc.w 6
-	dc.w 5
-	dc.w 8
-	dc.w 7
-	dc.w 1
-	dc.w 4
-	dc.w 8
-	dc.w 8
-	dc.w 8
-	dc.w 8
-	dc.w 7		
+Enemy_count:     
+	incbin ScenarioData\Scenario_1\Enemy\Count
+	incbin ScenarioData\Scenario_2\Enemy\Count
+	incbin ScenarioData\Scenario_3\Enemy\Count
+	incbin ScenarioData\Scenario_4\Enemy\Count
+	incbin ScenarioData\Scenario_5\Enemy\Count
+	incbin ScenarioData\Scenario_6\Enemy\Count
+	incbin ScenarioData\Scenario_7\Enemy\Count
+	incbin ScenarioData\Scenario_8\Enemy\Count
+	incbin ScenarioData\Scenario_9\Enemy\Count
+	incbin ScenarioData\Scenario_10\Enemy\Count
+	incbin ScenarioData\Scenario_11\Enemy\Count
+	incbin ScenarioData\Scenario_12\Enemy\Count
+	incbin ScenarioData\Scenario_13\Enemy\Count
+	incbin ScenarioData\Scenario_14\Enemy\Count
+	incbin ScenarioData\Scenario_15\Enemy\Count
+	incbin ScenarioData\Scenario_16\Enemy\Count
+	incbin ScenarioData\Scenario_17\Enemy\Count
+	incbin ScenarioData\Scenario_18\Enemy\Count
+	incbin ScenarioData\Scenario_19\Enemy\Count
+	incbin ScenarioData\Scenario_20\Enemy\Count		
 
-	
- f31C6A:
-	 dc.w   $2F,  $2B,    9,    0,  $10,   $F,    8,  $4E,  $4F,  $4F,  $4F,  $4F,  $4F,  $4F,  $4F,  $39
-	 dc.w   $2B,    9,    0,  $1B,  $11,    4,  $5A,  $4F,  $4F,  $4F,  $4F,  $4F,  $4F,  $4F,  $19,  $22
-	 dc.w     2,    0,    6,    5,    8,  $4D,  $4D,  $4D,  $4D,  $4D,  $4D,  $4D,  $4D,  $1A,  $23,    5
-	 dc.w     0,  $17,    5,    5,  $4B,  $4D,  $4D,  $4D,  $4D,  $4D,  $4D,  $4D
- f31CE2:         
-	dc.w   $4A,  $3D,    3,    0,  $11,  $3C,    6,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A
-	dc.w   $3D,    1,    0,    7,  $31,    4,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D
-	dc.w     3,    0,  $13,    9,    6,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    1
-	dc.w     0,   $D,  $22,    6,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    3,    0
-	dc.w    $B,  $17,    6,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59
- f31D78:
-	dc.w   $4B,  $3D,    9,    0,  $37,  $17,    8,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A
-	dc.w   $3D,    1,    0,  $2A,   $D,    2,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D
-	dc.w     1,    0,  $20,  $1D,    2,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    1
-	dc.w     0,  $38,   $C,    4,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    1,    0
-	dc.w   $16,    5,    4,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    1,    0,  $34
-	dc.w     2,    6,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $4A,  $3D,    1,    0,  $2F,  $18
-	dc.w     2,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59
- f31E4A:
-	dc.w   $44,  $2F,    1,    0,   $C,    5,    4,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $44
-	dc.w   $2F,    1,    0,  $17,    5,    8,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $44,  $2F
-	dc.w     1,    0,  $1D,   $D,    8,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $44,  $2F,    1
-	dc.w     0,    6,  $12,    6,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $44,  $2F,    1,    0
-	dc.w     9,  $19,    6,  $50,  $50,  $50,  $50,  $50,  $50,  $50,  $50
- f31EE0:
-	dc.w   $25,  $28,    7,    0,  $1A,    2,    8,  $4C,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $13
-	dc.w   $22,    4,    0,  $15,    3,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $10,  $23
-	dc.w     4,    0,  $1B,    6,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $1E,  $25,    2
-	dc.w     0,   $F,    2,    8,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $1F,  $26,    2,    0
-	dc.w   $1E,   $A,    8,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C
- f31F76:
-	dc.w   $1A,  $24,    1,    0,   $E,   $C,    2,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $1F
-	dc.w   $25,    2,    0,    7,   $F,    6,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $20,  $26
-	dc.w     2,    0,  $16,   $F,    6,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $4C,  $13,  $22,    4
-	dc.w     0,    9,   $B,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $14,  $23,    4,    0
-	dc.w   $13,   $B,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $11,  $23,    2,    0,   $F
-	dc.w   $14,    6,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B
- f3202A:
-	dc.w   $12,  $22,    9,    0,  $33,   $D,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,   $F
-	dc.w   $22,    4,    0,  $2B,    7,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $15,  $23
-	dc.w     3,    0,  $18,    8,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $1E,  $26,    3
-	dc.w     0,  $22,   $C,    6,  $4C,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $32,  $23,    1,    0
-	dc.w   $32,  $16,    8,  $4E,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $33,  $24,    1,    0,  $18
-	dc.w   $10,    8,  $4E,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B
- f320DE:
-	dc.w   $19,  $24,    5,    0,  $15,  $15,    2,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,   $F
-	dc.w   $22,    2,    0,  $14,  $18,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $10,  $23
-	dc.w     2,    0,  $17,  $13,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $15,  $22,    4
-	dc.w     0,  $18,  $15,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $16,  $22,    4,    0
-	dc.w   $17,  $17,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B
- f32174:
-	dc.w   $32,  $2B,    2,    0,  $22,   $B,    8,  $4E,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $2B; 0
-	dc.w   $2A,    1,    0,  $2D,    3,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $13,  $22; 16
-	dc.w     8,    0,  $34,    3,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $14,  $22,    8; 32
-	dc.w     0,  $14,    6,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $11,  $22,    8,    0; 48
-	dc.w   $1A,    2,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 64
- f3220A:
-	dc.w   $19,  $24,    3,    0,  $12,    5,    4,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $2F; 0
-	dc.w   $2B,    1,    0,    8,    7,    8,  $4E,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $30,  $2B; 16
-	dc.w     1,    0,  $17,  $11,    8,  $4E,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $39,  $2E,    3; 32
-	dc.w     0,  $17,    9,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $38,  $2D,    1,    0; 48
-	dc.w   $16,   $C,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $15,  $22,    8,    0,   $F; 64
-	dc.w    $D,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 80
- f322BE:
-	dc.w   $38,  $2D,    7,    0,  $1F,  $20,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $27; 0
-	dc.w   $2A,    5,    0,  $16,  $19,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $28,  $2A; 16
-	dc.w     5,    0,  $25,  $18,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $29,  $2A,    5; 32
-	dc.w     0,  $27,  $28,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $2A,  $2A,    5,    0; 48
-	dc.w   $14,  $26,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 64
- f32354:
-	dc.w   $1B,  $25,    4,    0,  $18,    4,    8,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $19; 0
-	dc.w   $24,    8,    0,   $E,  $17,    6,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $38,  $2D; 16
-	dc.w     4,    0,  $15,    9,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $39,  $2E,    5; 32
-	dc.w     0,  $1B,    9,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $37,  $2C,    9,    0; 48
-	dc.w     4,  $11,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $27,  $2A,    1,    0,   $A; 64
-	dc.w   $11,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $28,  $2A,    1,    0,  $15,  $14; 80
-	dc.w     8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $29,  $2A,    1,    0,  $1B,  $14,    8; 96
-	dc.w   $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 112
- f32444:
-	dc.w   $41,  $39,    8,    0,   $F,  $3B,    6,  $54,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $41; 0
-	dc.w   $39,    6,    0,   $A,  $38,    4,  $54,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $41,  $39; 16
-	dc.w     6,    0,  $15,  $38,    4,  $54,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $44,  $2F,    7; 32
-	dc.w     0,    7,  $27,    8,  $50,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $44,  $2F,    7,    0; 48
-	dc.w   $17,  $1C,    8,  $50,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $45,  $30,    5,    0,    2; 64
-	dc.w   $30,    8,  $51,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $45,  $30,    5,    0,  $1E,  $2A; 80
-	dc.w     8,  $51,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 96
- f32516:      
-	dc.b   0,$46,  0,$31,  0,  9,  0,  0,  0,$1F,  0, $F,  0,  0,  0,$52; 0
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B; 16
- f32534:
-	dc.b   0,$42,  0,$3B,  0,  9,  0,  0,  0,$1F,  0,$1C,  0,  0,  0,$52
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$48
-	dc.b   0,$38,  0,  4,  0,  0,  0,$19,  0,$19,  0,  6,  0,$54,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$48,  0,$38
-	dc.b   0,  4,  0,  0,  0,$19,  0,$1E,  0,  6,  0,$54,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4A,  0,$3D,  0,  9
-	dc.b   0,  0,  0,  8,  0,  3,  0,  8,  0,$59,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B
- f325AC:
-	dc.b   0,$42,  0,$3B,  0,  2,  0,  0,  0, $D,  0,$10,  0,  8,  0,$54
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$48
-	dc.b   0,$38,  0,  4,  0,  0,  0, $F,  0,$1B,  0,  8,  0,$55,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$48,  0,$38
-	dc.b   0,  4,  0,  0,  0,$14,  0,$19,  0,  8,  0,$55,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$45,  0,$30,  0,  8
-	dc.b   0,  0,  0,$1C,  0,$19,  0,  8,  0,$51,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$45,  0,$30,  0,  5,  0,  0
-	dc.b   0,$1D,  0,$15,  0,  8,  0,$51,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$45,  0,$30,  0,  5,  0,  0,  0,  4
-	dc.b   0,$1C,  0,  8,  0,$51,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$44,  0,$2F,  0,  6,  0,  0,  0, $B,  0,  8
-	dc.b   0,  8,  0,$50,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$44,  0,$2F,  0,  6,  0,  0,  0,  4,  0, $E,  0,  8
-	dc.b   0,$50,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
+ Scenario_1_enemys:
+	incbin ScenarioData\Scenario_1\Enemy\0		
+	incbin ScenarioData\Scenario_1\Enemy\1		
+	incbin ScenarioData\Scenario_1\Enemy\2		
+	incbin ScenarioData\Scenario_1\Enemy\3		
+ Scenario_2_enemys:         
+	incbin ScenarioData\Scenario_2\Enemy\4		
+	incbin ScenarioData\Scenario_2\Enemy\5		
+	incbin ScenarioData\Scenario_2\Enemy\6		
+	incbin ScenarioData\Scenario_2\Enemy\7		
+	incbin ScenarioData\Scenario_2\Enemy\8		
+ Scenario_3_enemys:
+	incbin ScenarioData\Scenario_3\Enemy\9		
+	incbin ScenarioData\Scenario_3\Enemy\10		
+	incbin ScenarioData\Scenario_3\Enemy\11		
+	incbin ScenarioData\Scenario_3\Enemy\12		
+	incbin ScenarioData\Scenario_3\Enemy\13		
+	incbin ScenarioData\Scenario_3\Enemy\14		
+	incbin ScenarioData\Scenario_3\Enemy\15		
+ Scenario_4_enemys:
+	incbin ScenarioData\Scenario_4\Enemy\16		
+	incbin ScenarioData\Scenario_4\Enemy\17		
+	incbin ScenarioData\Scenario_4\Enemy\18		
+	incbin ScenarioData\Scenario_4\Enemy\19		
+	incbin ScenarioData\Scenario_4\Enemy\20		
+ Scenario_5_enemys:
+	incbin ScenarioData\Scenario_5\Enemy\21		
+	incbin ScenarioData\Scenario_5\Enemy\22		
+	incbin ScenarioData\Scenario_5\Enemy\23		
+	incbin ScenarioData\Scenario_5\Enemy\24		
+	incbin ScenarioData\Scenario_5\Enemy\25		
+ Scenario_6_enemys:
+	incbin ScenarioData\Scenario_6\Enemy\26		
+	incbin ScenarioData\Scenario_6\Enemy\27		
+	incbin ScenarioData\Scenario_6\Enemy\28		
+	incbin ScenarioData\Scenario_6\Enemy\29		
+	incbin ScenarioData\Scenario_6\Enemy\30		
+	incbin ScenarioData\Scenario_6\Enemy\31		
+ Scenario_7_enemys:
+	incbin ScenarioData\Scenario_7\Enemy\32		
+	incbin ScenarioData\Scenario_7\Enemy\33		
+	incbin ScenarioData\Scenario_7\Enemy\34		
+	incbin ScenarioData\Scenario_7\Enemy\35		
+	incbin ScenarioData\Scenario_7\Enemy\36		
+	incbin ScenarioData\Scenario_7\Enemy\37		
+ Scenario_8_enemys:
+	incbin ScenarioData\Scenario_8\Enemy\38		
+	incbin ScenarioData\Scenario_8\Enemy\39		
+	incbin ScenarioData\Scenario_8\Enemy\40		
+	incbin ScenarioData\Scenario_8\Enemy\41		
+	incbin ScenarioData\Scenario_8\Enemy\42		
+ Scenario_9_enemys:
+	incbin ScenarioData\Scenario_9\Enemy\43		
+	incbin ScenarioData\Scenario_9\Enemy\44		
+	incbin ScenarioData\Scenario_9\Enemy\45		
+	incbin ScenarioData\Scenario_9\Enemy\46		
+	incbin ScenarioData\Scenario_9\Enemy\47		
+ Scenario_10_enemys:
+	incbin ScenarioData\Scenario_10\Enemy\48		
+	incbin ScenarioData\Scenario_10\Enemy\49		
+	incbin ScenarioData\Scenario_10\Enemy\50		
+	incbin ScenarioData\Scenario_10\Enemy\51		
+	incbin ScenarioData\Scenario_10\Enemy\52		
+	incbin ScenarioData\Scenario_10\Enemy\53		
+ Scenario_11_enemys:
+	incbin ScenarioData\Scenario_11\Enemy\54		
+	incbin ScenarioData\Scenario_11\Enemy\55		
+	incbin ScenarioData\Scenario_11\Enemy\56		
+	incbin ScenarioData\Scenario_11\Enemy\57		
+	incbin ScenarioData\Scenario_11\Enemy\58		
+ Scenario_12_enemys:
+	incbin ScenarioData\Scenario_12\Enemy\59		
+	incbin ScenarioData\Scenario_12\Enemy\60		
+	incbin ScenarioData\Scenario_12\Enemy\61		
+	incbin ScenarioData\Scenario_12\Enemy\62		
+	incbin ScenarioData\Scenario_12\Enemy\63		
+	incbin ScenarioData\Scenario_12\Enemy\64		
+	incbin ScenarioData\Scenario_12\Enemy\65		
+	incbin ScenarioData\Scenario_12\Enemy\66		
+ Scenario_13_enemys:
+	incbin ScenarioData\Scenario_13\Enemy\67		
+	incbin ScenarioData\Scenario_13\Enemy\68		
+	incbin ScenarioData\Scenario_13\Enemy\69		
+	incbin ScenarioData\Scenario_13\Enemy\70		
+	incbin ScenarioData\Scenario_13\Enemy\71		
+	incbin ScenarioData\Scenario_13\Enemy\72		
+	incbin ScenarioData\Scenario_13\Enemy\73		
+ Scenario_14_enemys:      
+	incbin ScenarioData\Scenario_14\Enemy\74		
+ Scenario_15_enemys:
+	incbin ScenarioData\Scenario_15\Enemy\75		
+	incbin ScenarioData\Scenario_15\Enemy\76		
+	incbin ScenarioData\Scenario_15\Enemy\77		
+	incbin ScenarioData\Scenario_15\Enemy\78		
+Scenario_16_enemys:
+	incbin ScenarioData\Scenario_16\Enemy\79		
+	incbin ScenarioData\Scenario_16\Enemy\80		
+	incbin ScenarioData\Scenario_16\Enemy\81		
+	incbin ScenarioData\Scenario_16\Enemy\82		
+	incbin ScenarioData\Scenario_16\Enemy\83		
+	incbin ScenarioData\Scenario_16\Enemy\84		
+	incbin ScenarioData\Scenario_16\Enemy\85		
+	incbin ScenarioData\Scenario_16\Enemy\86		
+Scenario_17_enemys:
+	incbin ScenarioData\Scenario_17\Enemy\87		
+	incbin ScenarioData\Scenario_17\Enemy\88		
+	incbin ScenarioData\Scenario_17\Enemy\89		
+	incbin ScenarioData\Scenario_17\Enemy\90		
+	incbin ScenarioData\Scenario_17\Enemy\91		
+	incbin ScenarioData\Scenario_17\Enemy\92		
+	incbin ScenarioData\Scenario_17\Enemy\93		
+	incbin ScenarioData\Scenario_17\Enemy\94		
+ Scenario_18_enemys:
+	incbin ScenarioData\Scenario_18\Enemy\95		
+	incbin ScenarioData\Scenario_18\Enemy\96		
+	incbin ScenarioData\Scenario_18\Enemy\97		
+	incbin ScenarioData\Scenario_18\Enemy\98		
+	incbin ScenarioData\Scenario_18\Enemy\99		
+	incbin ScenarioData\Scenario_18\Enemy\100		
+	incbin ScenarioData\Scenario_18\Enemy\101		
+	incbin ScenarioData\Scenario_18\Enemy\102		
+ Scenario_19_enemys:
+	incbin ScenarioData\Scenario_19\Enemy\103		
+	incbin ScenarioData\Scenario_19\Enemy\104		
+	incbin ScenarioData\Scenario_19\Enemy\105		
+	incbin ScenarioData\Scenario_19\Enemy\106		
+	incbin ScenarioData\Scenario_19\Enemy\107		
+	incbin ScenarioData\Scenario_19\Enemy\108		
+	incbin ScenarioData\Scenario_19\Enemy\109		
+	incbin ScenarioData\Scenario_19\Enemy\110		
+ Scenario_20_enemys:
+	incbin ScenarioData\Scenario_20\Enemy\111		
+	incbin ScenarioData\Scenario_20\Enemy\112		
+	incbin ScenarioData\Scenario_20\Enemy\113		
+	incbin ScenarioData\Scenario_20\Enemy\114		
+	incbin ScenarioData\Scenario_20\Enemy\115		
+	incbin ScenarioData\Scenario_20\Enemy\116		
+	incbin ScenarioData\Scenario_20\Enemy\117		
 
-f3269C:
-	dc.b   0,$48,  0,$38,  0,  7,  0,  0,  0,$13,  0,  8,  0,  8,  0,$54
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$48
-	dc.b   0,$38,  0,  7,  0,  0,  0, $D,  0, $A,  0,  8,  0,$54,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$49,  0,$3A
-	dc.b   0,  9,  0,  0,  0,$1D,  0,$10,  0,  8,  0,$58,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$49,  0,$3A,  0,  9
-	dc.b   0,  0,  0,  3,  0,$10,  0,  8,  0,$58,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$49,  0,$3A,  0,  6,  0,  0
-	dc.b   0,$1A,  0,$1C,  0,  8,  0,$58,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$4B,  0,$49,  0,$3A,  0,  6,  0,  0,  0,  3
-	dc.b   0,$1C,  0,  8,  0,$58,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$4B,  0,$49,  0,$3A,  0,  4,  0,  0,  0,$1D,  0,$28
-	dc.b   0,  8,  0,$58,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-	dc.b   0,$4B,  0,$49,  0,$3A,  0,  4,  0,  0,  0,  3,  0,$28,  0,  8
-	dc.b   0,$58,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B,  0,$4B
-
- f3278C:
-	dc.w   $3D,  $33,    5,    0,  $1C,    9,    8,  $56,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F; 0
-	dc.w   $32,    2,    0,  $13,  $16,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $45,  $30; 16
-	dc.w     7,    0,    4,  $17,    8,  $51,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $45,  $30,    7; 32
-	dc.w     0,    8,  $17,    8,  $51,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $45,  $30,    9,    0; 48
-	dc.w     6,  $13,    8,  $51,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $44,  $2F,    9,    0,    6; 64
-	dc.w    $D,    8,  $50,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $44,  $2F,    9,    0,    7,    9; 80
-	dc.w     8,  $50,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $44,  $2F,    9,    0,   $D,    9,    8; 96
-	dc.w   $50,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 112
- f3287C:
-	dc.w   $3E,  $34,    8,    0,    8,  $13,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $39; 0
-	dc.w   $2E,    8,    0,   $F,  $1A,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $37,  $2C; 16
-	dc.w     7,    0,  $14,    9,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $37,  $2C,    7; 32
-	dc.w     0,   $F,   $F,    8,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $19,  $24,    5,    0; 48
-	dc.w   $18,    9,    8,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $19,  $24,    5,    0,  $18; 64
-	dc.w   $11,    8,  $4F,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $13,  $22,    9,    0,  $15,  $1A; 80
-	dc.w     8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $14,  $22,    9,    0,  $18,  $1C,    8; 96
-	dc.w   $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 112
- f3296C:
-	dc.w   $40,  $36,    9,    0,  $20,  $1D,    8,  $54,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F; 0
-	dc.w   $35,    7,    0,  $39,  $1A,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F,  $35; 16
-	dc.w     7,    0,    7,  $1A,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F,  $35,    9; 32
-	dc.w     0,  $39,  $20,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F,  $32,    9,    0; 48
-	dc.w     5,  $20,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F,  $35,    3,    0,  $39; 64
-	dc.w   $38,    8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $3F,  $35,    3,    0,    6,  $38; 80
-	dc.w     8,  $53,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 96
-
- dword_32A3E:    
+ Additional_units:    
 	dc.l f32AB6            
 	dc.l f32AD4
 	dc.l f32B10
@@ -2289,28 +2137,28 @@ f3269C:
 	dc.l f32D2C
 	dc.l f32D4A
 	dc.l f32D68
-	dc.l f32D86
-	dc.l f32D86
-	dc.l f32D86
-	dc.l f32D86
-	dc.l f32D86
-	dc.l f32D86
-	dc.l f32D86
+	dc.l Friend_params
+	dc.l Friend_params
+	dc.l Friend_params
+	dc.l Friend_params
+	dc.l Friend_params
+	dc.l Friend_params
+	dc.l Friend_params
 	
  word_32A8E:     
-	dc.w 1                  
-	dc.w 2
-	dc.w 2
-	dc.w 2
-	dc.w 2
-	dc.w 1
-	dc.w 2
-	dc.w 1
-	dc.w 2
-	dc.w 6
-	dc.w 1
-	dc.w 1
-	dc.w 1
+	incbin ScenarioData\Additional\ScenarioUnits\1\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\2\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\3\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\4\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\5\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\6\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\7\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\8\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\9\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\10\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\11\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\12\Count	
+	incbin ScenarioData\Additional\ScenarioUnits\13\Count	
 	dc.w 6
 	dc.w 8
 	dc.w 8
@@ -2320,130 +2168,108 @@ f3269C:
 	dc.w 8
 
  f32AB6:
-    dc.w   $4A,  $59,    1,    0,    2,  $1D,    8,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 0
+	incbin ScenarioData\Additional\ScenarioUnits\1\0	
  f32AD4:
-	dc.w     6,    2,    3,    0,    1,  $13,    4,  $41,  $41,  $41,  $41,  $41,  $41,  $41,  $41,    3; 0
-	dc.w   $1D,    3,    0,    2,  $16,    8,  $47,  $48,  $48,  $48,  $48,  $48,  $48,  $48; 16
+	incbin ScenarioData\Additional\ScenarioUnits\2\1	
+	incbin ScenarioData\Additional\ScenarioUnits\2\2	
  f32B10:
-	dc.w   $25,  $28,    8,    0,  $26,    1,    8,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $1F; 0
-	dc.w   $26,    8,    0,  $2E,    1,    5,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 16
+	incbin ScenarioData\Additional\ScenarioUnits\3\3	
+	incbin ScenarioData\Additional\ScenarioUnits\3\4	
  f32B4C:
-	dc.w   $25,  $28,    8,    0,    5,  $18,    6,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $1F; 0
-	dc.w   $26,    8,    0,    2,  $1A,    6,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 16
+	incbin ScenarioData\Additional\ScenarioUnits\4\5	
+	incbin ScenarioData\Additional\ScenarioUnits\4\6	
  f32B88:
-	dc.w   $47,  $37,    1,    0,    1,   $E,    8,  $57,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $47; 0
-	dc.w   $37,    1,    0,  $3D,   $E,    8,  $57,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 16
+	incbin ScenarioData\Additional\ScenarioUnits\5\7	
+	incbin ScenarioData\Additional\ScenarioUnits\5\8	
  f32BC4:
-	dc.w   $25,  $28,    9,    0,  $20,    0,    8,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 0
+	incbin ScenarioData\Additional\ScenarioUnits\6\9	
  f32BE2:
-	dc.w   $27,  $2A,    1,    0,    1,  $16,    6,  $4D,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $27; 0
-	dc.w   $2A,    1,    0,   $C,  $1E,    8,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B,  $4B; 16
+	incbin ScenarioData\Additional\ScenarioUnits\7\10	
+	incbin ScenarioData\Additional\ScenarioUnits\7\11	
  f32C1E:
-	dc.w   $25,  $29,    9,    0,    2,  $31,    8,  $4C,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 0
+	incbin ScenarioData\Additional\ScenarioUnits\8\12	
  f32C3C:
-	dc.w   $49,  $3A,    3,    0,  $1E,    2,    8,  $58,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $49; 0
-	dc.w   $3A,    3,    0,  $1E,  $3D,    8,  $58,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 16
+	incbin ScenarioData\Additional\ScenarioUnits\9\13	
+	incbin ScenarioData\Additional\ScenarioUnits\9\14	
  f32C78:
-	dc.w   $46,  $52,    9,    0,    5,  $11,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $46; 0
-	dc.w   $52,    5,    0,    6,   $A,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $46,  $52; 16
-	dc.w     5,    0,    6,  $17,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $46,  $52,    9; 32
-	dc.w     0,  $3A,  $10,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $46,  $52,    5,    0; 48
-	dc.w   $37,   $A,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59,  $46,  $52,    5,    0,  $37; 64
-	dc.w   $15,    8,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 80
+	incbin ScenarioData\Additional\ScenarioUnits\10\15	
+	incbin ScenarioData\Additional\ScenarioUnits\10\16	
+	incbin ScenarioData\Additional\ScenarioUnits\10\17	
+	incbin ScenarioData\Additional\ScenarioUnits\10\18	
+	incbin ScenarioData\Additional\ScenarioUnits\10\19	
+	incbin ScenarioData\Additional\ScenarioUnits\10\20	
  f32D2C:
-	dc.w    $E,  $3E,    9,    0,    8,    0,    0,  $52,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 0
+	incbin ScenarioData\Additional\ScenarioUnits\10\15	
  f32D4A:
-	dc.w   $43,  $3C,    9,    0,  $20,   $C,    8,  $5A,  $59,  $59,  $59,  $59,  $59,  $59,  $59; 0
+	incbin ScenarioData\Additional\ScenarioUnits\10\15	
  f32D68:
-	dc.w     8,    2,    8,    0,  $14,    1,    4,  $41,  $41,  $41,  $41,  $41,  $41,  $41,  $41; 0
+	incbin ScenarioData\Additional\ScenarioUnits\10\15	
 
- f32D86:    
-	dc.l f32DFE            
-	dc.l f32E76
-	dc.l f32E94
-	dc.l f32ED0
-	dc.l f32ED0
-	dc.l f32ED0
-	dc.l f32ED0
-	dc.l f32EEE
-	dc.l f32EEE
-	dc.l f32EEE
-	dc.l f32EEE
-	dc.l f32EEE
-	dc.l f32EEE
-	dc.l f32F0C
-	dc.l f32F48
+ Friend_params:    
+	dc.l Scenario_1_friends            
+	dc.l Scenario_2_friends
+	dc.l Scenario_3_friends
+	dc.l Scenario_7_friends
+	dc.l Scenario_7_friends
+	dc.l Scenario_7_friends
+	dc.l Scenario_7_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_13_friends
+	dc.l Scenario_14_friends
+	dc.l Scenario_15_friends
 	dc.l f32FA2
 	dc.l f32FA2
 	dc.l f32FA2
 	dc.l f32FA2
 	dc.l f32FA2
 
- byte_32DD6:     
-	dc.b   0                 
-	dc.b   4
-	dc.b   0
-	dc.b   1
-	dc.b   0
-	dc.b   2
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   1
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   1
-	dc.b   0
-	dc.b   2
-	dc.b   0
-	dc.b   3
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
-	dc.b   0
+ Friend_count:     
+	incbin ScenarioData\Scenario_1\Friend\Count
+	incbin ScenarioData\Scenario_2\Friend\Count
+	incbin ScenarioData\Scenario_3\Friend\Count
+	incbin ScenarioData\Scenario_4\Friend\Count
+	incbin ScenarioData\Scenario_5\Friend\Count
+	incbin ScenarioData\Scenario_6\Friend\Count
+	incbin ScenarioData\Scenario_7\Friend\Count
+	incbin ScenarioData\Scenario_8\Friend\Count
+	incbin ScenarioData\Scenario_9\Friend\Count
+	incbin ScenarioData\Scenario_10\Friend\Count
+	incbin ScenarioData\Scenario_11\Friend\Count
+	incbin ScenarioData\Scenario_12\Friend\Count
+	incbin ScenarioData\Scenario_13\Friend\Count
+	incbin ScenarioData\Scenario_14\Friend\Count
+	incbin ScenarioData\Scenario_15\Friend\Count
+	incbin ScenarioData\Scenario_16\Friend\Count
+	incbin ScenarioData\Scenario_17\Friend\Count
+	incbin ScenarioData\Scenario_18\Friend\Count
+	incbin ScenarioData\Scenario_19\Friend\Count
+	incbin ScenarioData\Scenario_20\Friend\Count	
 	
- f32DFE: 
-	dc.w    $D,    8,    1,    0,   $E,    2,    2,  $41,  $41,  $41,  $41,  $41,  $41,  $41,  $41,    2
-	dc.w   $19,    4,    0,   $F,    9,    5,  $47,  $41,  $41,  $41,  $41,  $41,  $41,  $41,    4,    3
-	dc.w     4,    0,  $13,    5,    4,  $41,  $45,  $45,  $45,  $45,  $45,  $45,  $45,    5,  $15,    5
-	dc.w     0,   $A,    5,    4,  $45,  $47,  $47,  $47,  $47,  $47,  $47,  $47
- f32E76:
-	dc.w     3,  $1D,    1,    0,   $C,  $36,    6,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48; 0
- f32E94:
-	dc.w     6,    2,    2,    0,  $26,   $E,    8,  $41,  $41,  $41,  $41,  $41,  $41,  $41,  $41,    3; 0
-	dc.w   $1D,    1,    0,  $10,  $15,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48; 16
- f32ED0:
-	dc.b   0,  7,  0,  2,  0,  6,  0,  0,  0,$33,  0,  7,  0,  8,  0,$41; 0
-	dc.b   0,$48,  0,$48,  0,$48,  0,$48,  0,$48,  0,$48,  0,$48; 16
- f32EEE:
-	dc.b   0,  9,  0,$17,  0,  9,  0,  0,  0,$10,  0,  8,  0,  8,  0,$46; 0
-	dc.b   0,$48,  0,$48,  0,$48,  0,$48,  0,$48,  0,$48,  0,$48; 16
- f32F0C:
-	dc.w    $C,    2,    1,    0,  $17,  $16,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48,   $C; 0
-	dc.w     2,    1,    0,  $27,    8,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48; 16
- f32F48:
-	dc.w    $C,    2,    1,    0,  $13,  $19,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48,   $C; 0
-	dc.w     2,    1,    0,  $10,  $1C,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48,   $C,    2; 16
-	dc.w     1,    0,  $13,  $1E,    8,  $48,  $48,  $48,  $48,  $48,  $48,  $48,  $48; 32
+ Scenario_1_friends: 
+ 	incbin ScenarioData\Scenario_1\Friend\0
+ 	incbin ScenarioData\Scenario_1\Friend\1
+ 	incbin ScenarioData\Scenario_1\Friend\2
+ 	incbin ScenarioData\Scenario_1\Friend\3
+ Scenario_2_friends:
+ 	incbin ScenarioData\Scenario_2\Friend\4
+ Scenario_3_friends:
+ 	incbin ScenarioData\Scenario_3\Friend\5
+ 	incbin ScenarioData\Scenario_3\Friend\6
+ Scenario_7_friends:
+ 	incbin ScenarioData\Scenario_7\Friend\7
+ Scenario_13_friends:
+ 	incbin ScenarioData\Scenario_13\Friend\8
+ Scenario_14_friends:
+	incbin ScenarioData\Scenario_14\Friend\9
+ 	incbin ScenarioData\Scenario_14\Friend\10
+  Scenario_15_friends:
+	incbin ScenarioData\Scenario_15\Friend\11
+	incbin ScenarioData\Scenario_15\Friend\12
+	incbin ScenarioData\Scenario_15\Friend\13
 
  f32FA2:
  	dc.l f32FF2

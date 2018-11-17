@@ -15,6 +15,7 @@
 	include 'source/Names.asm'
 	include 'source/MapSpritePal.asm'	
 	include 'source/HeroClassParams.asm'
+	include 'source/LandMap.asm'
 	include 'source/Other.asm'		
 	include 'source/Text.asm'	
 	include 'source/Other2.asm'	
@@ -202,7 +203,7 @@ SetNewPointers:
 	dc.l unk_310E0
 	
  	org $1104E
-	dc.l dword_312A2
+	dc.l Start_positions
  	
 	org $17C62
 	dc.l unk_34230
@@ -781,49 +782,49 @@ SetNewPointers:
 	dc.l f32FA2
 	
 	org $14CB8
-	dc.l byte_32DD6
+	dc.l Friend_count
 	
 	org $19864
-	dc.l byte_32DD6
+	dc.l Friend_count
 		
 	org $148A8
-	dc.l byte_32DD6
+	dc.l Friend_count
 	
 	org $1985E
-	dc.l f32D86
+	dc.l Friend_params
 	
 	org $14CB2
-	dc.l f32D86
+	dc.l Friend_params
 	
 	org $148A2
-	dc.l f32D86
+	dc.l Friend_params
 	
 	org $1445C
 	dc.l word_32A8E
 	
 	org $14456
-	dc.l dword_32A3E
+	dc.l Additional_units
 	
 	org $198CC
-	dc.l word_31C42
+	dc.l Enemy_count
 	
 	org $18F74
-	dc.l word_31C42
+	dc.l Enemy_count
 	
 	org $14AAC
-	dc.l word_31C42
+	dc.l Enemy_count
 	
 	org $1476E
-	dc.l word_31C42
+	dc.l Enemy_count
 	
 	org $198C6
-	dc.l mapsinfo
+	dc.l Enemyinfo
 	
 	org $18F6E
-	dc.l mapsinfo
+	dc.l Enemyinfo
 	
 	org $14768
-	dc.l mapsinfo
+	dc.l Enemyinfo
 	
 	org $14BF6
 	dc.l byte_31B92
@@ -1084,7 +1085,7 @@ SetNewPointers:
 	dc.l word_314D6
 	
 	org $11054
-	dc.l byte_3127A
+	dc.l Start_pos_cnt
 	
 	org $1133A
 	dc.l byte_31264

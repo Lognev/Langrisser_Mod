@@ -342,26 +342,28 @@
 	 
     ;dc.b 0
  StartHeroes:	
-	dc.w     1,    7,$FFFF,$FFFF ; DATA XREF: sub_B51E+4o
-	dc.w $FFFF,$FFFF,$FFFF,$FFFF
-	dc.w $FFFF,$FFFF,$FFFF,$FFFF
-	dc.w $FFFF,$FFFF,  $3E,  $22
-	dc.w   $22,  $22,  $22,  $23
-	dc.w   $23,  $23,  $23,  $22
-	dc.w   $23,  $24,  $24,  $25
-	dc.w   $27,  $27,  $27,  $27
-	dc.w   $27,  $27,  $27,  $27
-	dc.w   $26,  $28,  $29,  $2A
-	dc.w   $2A,  $2A,  $2A,  $2A
-	dc.w   $2A,  $2A,  $2A,  $2B
-	dc.w   $2B,  $2B,  $2B,  $2B
-	dc.w   $2B,  $2B,  $2B,  $2C
-	dc.w   $2D,  $2E,  $4B,  $4B
-	dc.w   $32,  $33,  $34,  $35
-	dc.w   $36,  $39,  $3B,  $3C
-	dc.w   $2F,  $30,  $31,  $37
-	dc.w   $38,  $3A,  $3D,  $3D
-	dc.w   $4B,    0
+	incbin UnitParams\Data\UnitsTable
+
+	; dc.w     1,    7,$FFFF,$FFFF ; DATA XREF: sub_B51E+4o
+	; dc.w $FFFF,$FFFF,$FFFF,$FFFF
+	; dc.w $FFFF,$FFFF,$FFFF,$FFFF
+	; dc.w $FFFF,$FFFF,  $3E,  $22
+	; dc.w   $22,  $22,  $22,  $23
+	; dc.w   $23,  $23,  $23,  $22
+	; dc.w   $23,  $24,  $24,  $25
+	; dc.w   $27,  $27,  $27,  $27
+	; dc.w   $27,  $27,  $27,  $27
+	; dc.w   $26,  $28,  $29,  $2A
+	; dc.w   $2A,  $2A,  $2A,  $2A
+	; dc.w   $2A,  $2A,  $2A,  $2B
+	; dc.w   $2B,  $2B,  $2B,  $2B
+	; dc.w   $2B,  $2B,  $2B,  $2C
+	; dc.w   $2D,  $2E,  $4B,  $4B
+	; dc.w   $32,  $33,  $34,  $35
+	; dc.w   $36,  $39,  $3B,  $3C
+	; dc.w   $2F,  $30,  $31,  $37
+	; dc.w   $38,  $3A,  $3D,  $3D
+	; dc.w   $4B,    0
 	
 HeroLevel:      
 	dc.w 0     				; Garret

@@ -1,158 +1,158 @@
  
  PalettePointers:	
- 	 dc.w $84 ; Ä
+ 	 incbin UnitParams\PictureParams\0.id;dc.w $84 ; Ä
 	 dc.l Palette1
-	 dc.w $85
+	 incbin UnitParams\PictureParams\1.id;dc.w $85
 	 dc.l Palette2
-	 dc.w $86
+	 incbin UnitParams\PictureParams\2.id;dc.w $86
 	 dc.l Palette3
-	 dc.w $87
+	 incbin UnitParams\PictureParams\3.id;dc.w $87
 	 dc.l Palette4
-	 dc.w $88
+	 incbin UnitParams\PictureParams\4.id;dc.w $88
 	 dc.l Palette5
-	 dc.w $89
+	 incbin UnitParams\PictureParams\5.id;dc.w $89
 	 dc.l Palette6
-	 dc.w $8A
+	 incbin UnitParams\PictureParams\6.id;dc.w $8A
 	 dc.l Palette7
-	 dc.w $8B
+	 incbin UnitParams\PictureParams\7.id;dc.w $8B
 	 dc.l Palette8
-	 dc.w $8C
+	 incbin UnitParams\PictureParams\8.id;dc.w $8C
 	 dc.l Palette9
-	 dc.w $93
+	 incbin UnitParams\PictureParams\9.id;dc.w $93
 	 dc.l Palette17
-	 dc.w $8F
+	 incbin UnitParams\PictureParams\10.id;dc.w $8F
 	 dc.l Palette12
-	 dc.w $90
+	 incbin UnitParams\PictureParams\11.id;dc.w $90
 	 dc.l Palette13
-	 dc.w $90
+	 incbin UnitParams\PictureParams\12.id;dc.w $90
 	 dc.l Palette14
-	 dc.w $8D
+	 incbin UnitParams\PictureParams\13.id;dc.w $8D
 	 dc.l Palette10
-	 dc.w $8E
+	 incbin UnitParams\PictureParams\14.id;dc.w $8E
 	 dc.l Palette11
-	 dc.w $92
+	 incbin UnitParams\PictureParams\15.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\16.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\17.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\18.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\19.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\20.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\21.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\22.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\23.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\24.id;dc.w $92
 	 dc.l Palette18
-	 dc.w $92
+	 incbin UnitParams\PictureParams\25.id;dc.w $92
 	 dc.l Palette18
-	 dc.w $92
+	 incbin UnitParams\PictureParams\26.id;dc.w $92
 	 dc.l Palette16
-	 dc.w $91
+	 incbin UnitParams\PictureParams\27.id;dc.w $91
 	 dc.l Palette15
-	 dc.w $92
+	 incbin UnitParams\PictureParams\28.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\29.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\30.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\31.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\32.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\33.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\34.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\35.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\36.id;dc.w $92
 	 dc.l Palette18
-	 dc.w $93
+	 incbin UnitParams\PictureParams\37.id;dc.w $93
 	 dc.l Palette17
-	 dc.w $92
+	 incbin UnitParams\PictureParams\38.id;dc.w $92
 	 dc.l Palette18
-	 dc.w $92
+	 incbin UnitParams\PictureParams\39.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\40.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\41.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\42.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\43.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\44.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\45.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\46.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\47.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\48.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\49.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\50.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\51.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\52.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\53.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $92
+	 incbin UnitParams\PictureParams\54.id;dc.w $92
 	 dc.l Palette19
-	 dc.w $94
+	 incbin UnitParams\PictureParams\55.id;dc.w $94
 	 dc.l Palette20
-	 dc.w $94
+	 incbin UnitParams\PictureParams\56.id;dc.w $94
 	 dc.l Palette20
-	 dc.w $94
+	 incbin UnitParams\PictureParams\57.id;dc.w $94
 	 dc.l Palette20
-	 dc.w $9F
+	 incbin UnitParams\PictureParams\58.id;dc.w $9F
 	 dc.l Palette37
-	 dc.w $9F
+	 incbin UnitParams\PictureParams\59.id;dc.w $9F
 	 dc.l Palette38
-	 dc.w $94
+	 incbin UnitParams\PictureParams\60.id;dc.w $94
 	 dc.l Palette28
-	 dc.w $99
+	 incbin UnitParams\PictureParams\61.id;dc.w $99
 	 dc.l Palette26
-	 dc.w $98
+	 incbin UnitParams\PictureParams\62.id;dc.w $98
 	 dc.l Palette25
-	 dc.w $92
+	 incbin UnitParams\PictureParams\63.id;dc.w $92
 	 dc.l Palette27
-	 dc.w $97
+	 incbin UnitParams\PictureParams\64.id;dc.w $97
 	 dc.l Palette24
-	 dc.w $9E
+	 incbin UnitParams\PictureParams\65.id;dc.w $9E
 	 dc.l Palette34
-	 dc.w $9E
+	 incbin UnitParams\PictureParams\66.id;dc.w $9E
 	 dc.l Palette36
-	 dc.w $96
+	 incbin UnitParams\PictureParams\67.id;dc.w $96
 	 dc.l Palette23
-	 dc.w $9A
+	 incbin UnitParams\PictureParams\68.id;dc.w $9A
 	 dc.l Palette29
-	 dc.w $9B
+	 incbin UnitParams\PictureParams\69.id;c.w $9B
 	 dc.l Palette30
-	 dc.w $9C
+	 incbin UnitParams\PictureParams\70.id;dc.w $9C
 	 dc.l Palette31
-	 dc.w $9D
+	 incbin UnitParams\PictureParams\71.id;dc.w $9D
 	 dc.l Palette32
-	 dc.w $9E
+	 incbin UnitParams\PictureParams\72.id;dc.w $9E
 	 dc.l Palette33
-	 dc.w $9E
+	 incbin UnitParams\PictureParams\73.id;dc.w $9E
 	 dc.l Palette35
-	 dc.w $95
+	 incbin UnitParams\PictureParams\74.id;dc.w $95
 	 dc.l Palette22
-	 dc.w $95
+	 incbin UnitParams\PictureParams\75.id;dc.w $95
 	 dc.l Palette22
-	 dc.w $A0
+	 incbin UnitParams\PictureParams\76.id;dc.w $A0
 	 dc.l Palette39
 	 
 Palette:

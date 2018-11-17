@@ -193,250 +193,250 @@
   dc.l Sprite191 ; For lang2Mod  
   dc.l Sprite192 ; For lang2Mod  
 ;  
-   incbin Sprites\Sprite0.spr
-   incbin Sprites\Sprite1.spr
-   incbin Sprites\Sprite2.spr
+   incbin Sprites\Sprite000.spr
+   incbin Sprites\Sprite001.spr
+   incbin Sprites\Sprite002.spr
 ;  помогло убрать баг на kega fusion
   Sprite0:
-   incbin Sprites\Sprite0.spr
+   incbin Sprites\Sprite000.spr
   Sprite1:
-   incbin Sprites\Sprite1.spr
+   incbin Sprites\Sprite001.spr
   Sprite2:
-   incbin Sprites\Sprite2.spr
+   incbin Sprites\Sprite002.spr
   Sprite3:
-   incbin Sprites\Sprite3.spr
+   incbin Sprites\Sprite003.spr
   Sprite4:
-   incbin Sprites\Sprite4.spr
+   incbin Sprites\Sprite004.spr
   Sprite5:
    incbin Sprites\Land5.spr
   Sprite6:
-   incbin Sprites\Sprite6.spr
+   incbin Sprites\Sprite006.spr
   Sprite7:
    incbin Sprites\Land7.spr
   Sprite8:
-   incbin Sprites\Sprite8.spr
+   incbin Sprites\Sprite008.spr
   Sprite9:
    incbin Sprites\Land9.spr
   Sprite10:
-   incbin Sprites\Sprite10.spr
+   incbin Sprites\Sprite010.spr
   Sprite11:
    incbin Sprites\Land11.spr
   Sprite12:
-   incbin Sprites\Sprite12.spr
+   incbin Sprites\Sprite012.spr
   Sprite13:
    incbin Sprites\Land13.spr
   Sprite14:
-   incbin Sprites\Sprite14.spr
+   incbin Sprites\Sprite014.spr
   Sprite15:
    incbin Sprites\Land15.spr
   Sprite16:
-   incbin Sprites\Sprite16.spr
+   incbin Sprites\Sprite016.spr
   Sprite17:
-   incbin Sprites\Sprite17.spr
+   incbin Sprites\Sprite017.spr
   Sprite18:
-   incbin Sprites\Sprite18.spr
+   incbin Sprites\Sprite018.spr
   Sprite19:
-   incbin Sprites\Sprite19.spr
+   incbin Sprites\Sprite019.spr
   Sprite20:
-   incbin Sprites\Sprite20.spr
+   incbin Sprites\Sprite020.spr
   Sprite21:
-   incbin Sprites\Sprite21.spr
+   incbin Sprites\Sprite021.spr
   Sprite22:
-   incbin Sprites\Sprite22.spr
+   incbin Sprites\Sprite022.spr
   Sprite23:
-   incbin Sprites\Sprite23.spr
+   incbin Sprites\Sprite023.spr
   Sprite24:
-   incbin Sprites\Sprite24.spr
+   incbin Sprites\Sprite024.spr
   Sprite25:
-   incbin Sprites\Sprite25.spr
+   incbin Sprites\Sprite025.spr
   Sprite26:
-   incbin Sprites\Sprite26.spr
+   incbin Sprites\Sprite026.spr
   Sprite27:
-   incbin Sprites\Sprite27.spr
+   incbin Sprites\Sprite027.spr
   Sprite28:
-   incbin Sprites\Sprite28.spr
+   incbin Sprites\Sprite028.spr
   Sprite29:
-   incbin Sprites\Sprite29.spr
+   incbin Sprites\Sprite029.spr
   Sprite30:
-   incbin Sprites\Sprite30.spr
+   incbin Sprites\Unit000.spr
   Sprite31:
-   incbin Sprites\Sprite31.spr
+   incbin Sprites\Unit001.spr
   Sprite32:
-   incbin Sprites\Sprite32.spr
+   incbin Sprites\Unit002.spr
   Sprite33:
-   incbin Sprites\Sprite33.spr
+   incbin Sprites\Unit003.spr
   Sprite34:
-   incbin Sprites\Sprite34.spr
+   incbin Sprites\Unit004.spr
   Sprite35:
-   incbin Sprites\Sprite35.spr
+   incbin Sprites\Unit005.spr
   Sprite36:
-   incbin Sprites\Sprite36.spr
+   incbin Sprites\Unit006.spr
   Sprite37:
-   incbin Sprites\Sprite37.spr
+   incbin Sprites\Unit007.spr
   Sprite38:
-   incbin Sprites\Sprite38.spr
+   incbin Sprites\Unit008.spr
   Sprite39:
-   incbin Sprites\Sprite39.spr
+   incbin Sprites\Unit009.spr
   Sprite40:
-   incbin Sprites\Sprite40.spr
+   incbin Sprites\Unit010.spr
   Sprite41:
-   incbin Sprites\Sprite41.spr
+   incbin Sprites\Unit011.spr
   Sprite42:
-   incbin Sprites\Sprite42.spr
+   incbin Sprites\Unit012.spr
   Sprite43:
-   incbin Sprites\Sprite43.spr
+   incbin Sprites\Unit013.spr
   Sprite44:
-   incbin Sprites\Sprite44.spr
+   incbin Sprites\Unit014.spr
   Sprite45:
-   incbin Sprites\Sprite45.spr
+   incbin Sprites\Unit015.spr
   Sprite46:
-   incbin Sprites\Sprite46.spr
+   incbin Sprites\Unit016.spr
   Sprite47:
-   incbin Sprites\Sprite47.spr
+   incbin Sprites\Unit017.spr
   Sprite48:
-   incbin Sprites\Sprite48.spr
+   incbin Sprites\Unit018.spr
   Sprite49:
-   incbin Sprites\Sprite49.spr
+   incbin Sprites\Unit019.spr
   Sprite50:
-   incbin Sprites\Sprite50.spr
+   incbin Sprites\Unit020.spr
   Sprite51:
-   incbin Sprites\Sprite51.spr
+   incbin Sprites\Unit021.spr
   Sprite52:
-   incbin Sprites\Sprite52.spr
+   incbin Sprites\Unit022.spr
   Sprite53:
-   incbin Sprites\Sprite53.spr
+   incbin Sprites\Unit023.spr
   Sprite54:
-   incbin Sprites\Sprite54.spr
+   incbin Sprites\Unit024.spr
   Sprite55:
-   incbin Sprites\Sprite55.spr
+   incbin Sprites\Unit025.spr
   Sprite56:
-   incbin Sprites\Sprite56.spr
+   incbin Sprites\Unit026.spr
   Sprite57:
-   incbin Sprites\Sprite57.spr
+   incbin Sprites\Unit027.spr
   Sprite58:
-   incbin Sprites\Sprite58.spr
+   incbin Sprites\Unit028.spr
   Sprite59:
-   incbin Sprites\Sprite59.spr
+   incbin Sprites\Unit029.spr
   Sprite60:
-   incbin Sprites\Sprite60.spr
+   incbin Sprites\Unit030.spr
   Sprite61:
-   incbin Sprites\Sprite61.spr
+   incbin Sprites\Unit031.spr
   Sprite62:
-   incbin Sprites\Sprite62.spr
+   incbin Sprites\Unit032.spr
   Sprite63:
-   incbin Sprites\Sprite63.spr
+   incbin Sprites\Unit033.spr
   Sprite64:
-   incbin Sprites\Sprite64.spr
+   incbin Sprites\Unit034.spr
   Sprite65:
-   incbin Sprites\Sprite65.spr
+   incbin Sprites\Unit035.spr
   Sprite66:
-   incbin Sprites\Sprite66.spr
+   incbin Sprites\Unit036.spr
   Sprite67:
-   incbin Sprites\Sprite67.spr
+   incbin Sprites\Unit037.spr
   Sprite68:
-   incbin Sprites\Sprite68.spr
+   incbin Sprites\Unit038.spr
   Sprite69:
-   incbin Sprites\Sprite69.spr
+   incbin Sprites\Unit039.spr
   Sprite70:
-   incbin Sprites\Sprite70.spr
+   incbin Sprites\Unit040.spr
   Sprite71:
-   incbin Sprites\Sprite71.spr
+   incbin Sprites\Unit041.spr
   Sprite72:
-   incbin Sprites\Sprite72.spr
+   incbin Sprites\Unit042.spr
   Sprite73:
-   incbin Sprites\Sprite73.spr
+   incbin Sprites\Unit043.spr
   Sprite74:
-   incbin Sprites\Sprite74.spr
+   incbin Sprites\Unit044.spr
   Sprite75:
-   incbin Sprites\Sprite75.spr
+   incbin Sprites\Unit045.spr
   Sprite76:
-   incbin Sprites\Sprite76.spr
+   incbin Sprites\Unit046.spr
   Sprite77:
-   incbin Sprites\Sprite77.spr
+   incbin Sprites\Unit047.spr
   Sprite78:
-   incbin Sprites\Sprite78.spr
+   incbin Sprites\Unit048.spr
   Sprite79:
-   incbin Sprites\Sprite79.spr
+   incbin Sprites\Unit049.spr
   Sprite80:
-   incbin Sprites\Sprite80.spr
+   incbin Sprites\Unit050.spr
   Sprite81:
-   incbin Sprites\Sprite81.spr
+   incbin Sprites\Unit051.spr
   Sprite82:
-   incbin Sprites\Sprite82.spr
+   incbin Sprites\Unit052.spr
   Sprite83:
-   incbin Sprites\Sprite83.spr
+   incbin Sprites\Unit053.spr
   Sprite84:
-   incbin Sprites\Sprite84.spr
+   incbin Sprites\Unit054.spr
   Sprite85:
-   incbin Sprites\Sprite85.spr
+   incbin Sprites\Unit055.spr
   Sprite86:
-   incbin Sprites\Sprite86.spr
+   incbin Sprites\Unit056.spr
   Sprite87:
-   incbin Sprites\Sprite87.spr
+   incbin Sprites\Unit057.spr
   Sprite88:
-   incbin Sprites\Sprite88.spr
+   incbin Sprites\Unit058.spr
   Sprite89:
-   incbin Sprites\Sprite89.spr
+   incbin Sprites\Unit059.spr
   Sprite90:
-   incbin Sprites\Sprite90.spr
+   incbin Sprites\Unit060.spr
   Sprite91:
-   incbin Sprites\Sprite91.spr
+   incbin Sprites\Unit061.spr
   Sprite92:
-   incbin Sprites\Sprite92.spr
+   incbin Sprites\Unit062.spr
   Sprite93:
-   incbin Sprites\Sprite93.spr
+   incbin Sprites\Unit063.spr
   Sprite94:
-   incbin Sprites\Sprite94.spr
+   incbin Sprites\Unit064.spr
   Sprite95:
-   incbin Sprites\Sprite95.spr
+   incbin Sprites\Unit065.spr
   Sprite96:
-   incbin Sprites\Sprite96.spr
+   incbin Sprites\Unit066.spr
   Sprite97:
-   incbin Sprites\Sprite97.spr
+   incbin Sprites\Unit067.spr
   Sprite98:
-   incbin Sprites\Sprite98.spr
+   incbin Sprites\Unit068.spr
   Sprite99:
-   incbin Sprites\Sprite99.spr
+   incbin Sprites\Unit069.spr
   Sprite100:
-   incbin Sprites\Sprite100.spr
+   incbin Sprites\Unit070.spr
   Sprite101:
-   incbin Sprites\Sprite101.spr
+   incbin Sprites\Unit071.spr
   Sprite102:
-   incbin Sprites\Sprite102.spr
+   incbin Sprites\Unit072.spr
   Sprite103:
-   incbin Sprites\Sprite103.spr
+   incbin Sprites\Unit073.spr
   Sprite104:
-   incbin Sprites\Sprite104.spr
+   incbin Sprites\Unit074.spr
   Sprite105:
-   incbin Sprites\Sprite105.spr
+   incbin Sprites\Unit075.spr
   Sprite106:
-   incbin Sprites\Sprite106.spr
+   incbin Sprites\Unit076.spr
   Sprite107:
-   incbin Sprites\Sprite107.spr
+   incbin Sprites\Unit077.spr
   Sprite108:
-   incbin Sprites\Sprite108.spr
+   incbin Sprites\Unit078.spr
   Sprite109:
-   incbin Sprites\Sprite109.spr
+   incbin Sprites\Unit079.spr
   Sprite110:
-   incbin Sprites\Sprite110.spr
+   incbin Sprites\Unit080.spr
   Sprite111:
-   incbin Sprites\Sprite111.spr
+   incbin Sprites\Unit081.spr
   Sprite112:
-   incbin Sprites\Sprite112.spr
+   incbin Sprites\Unit082.spr
   Sprite113:
-   incbin Sprites\Sprite113.spr
+   incbin Sprites\Unit083.spr
   Sprite114:
-   incbin Sprites\Sprite114.spr
+   incbin Sprites\Unit084.spr
   Sprite115:
-   incbin Sprites\Sprite115.spr
+   incbin Sprites\Unit085.spr
   Sprite116:
-   incbin Sprites\Sprite116.spr
+   incbin Sprites\Unit086.spr
   Sprite117:
-   incbin Sprites\Sprite117.spr
+   incbin Sprites\Unit087.spr
   Sprite118:
-   incbin Sprites\Sprite118.spr
+   incbin Sprites\Unit088.spr
   Sprite119:
-   incbin Sprites\Sprite119.spr
+   incbin Sprites\Unit089.spr
   Sprite120:
    incbin Sprites\Sprite120.spr
   Sprite121:
@@ -462,63 +462,63 @@
   Sprite131:
    incbin Sprites\Sprite131.spr
   Sprite132:
-   incbin Sprites\Sprite132.spr
+   incbin Sprites\Picture00.spr
   Sprite133:
-   incbin Sprites\Sprite133.spr
+   incbin Sprites\Picture01.spr
   Sprite134:
-   incbin Sprites\Sprite134.spr
+   incbin Sprites\Picture02.spr
   Sprite135:
-   incbin Sprites\Sprite135.spr
+   incbin Sprites\Picture03.spr
   Sprite136:
-   incbin Sprites\Sprite136.spr
+   incbin Sprites\Picture04.spr
   Sprite137:
-   incbin Sprites\Sprite137.spr
+   incbin Sprites\Picture05.spr
   Sprite138:
-   incbin Sprites\Sprite138.spr
+   incbin Sprites\Picture06.spr
   Sprite139:
-   incbin Sprites\Sprite139.spr
+   incbin Sprites\Picture07.spr
   Sprite140:
-   incbin Sprites\Sprite140.spr
+   incbin Sprites\Picture08.spr
   Sprite141:
-   incbin Sprites\Sprite141.spr
+   incbin Sprites\Picture09.spr
   Sprite142:
-   incbin Sprites\Sprite142.spr
+   incbin Sprites\Picture10.spr
   Sprite143:
-   incbin Sprites\Sprite143.spr
+   incbin Sprites\Picture11.spr
   Sprite144:
-   incbin Sprites\Sprite144.spr
+   incbin Sprites\Picture12.spr
   Sprite145:
-   incbin Sprites\Sprite145.spr
+   incbin Sprites\Picture13.spr
   Sprite146:
-   incbin Sprites\Sprite146.spr
+   incbin Sprites\Picture14.spr
   Sprite147:
-   incbin Sprites\Sprite147.spr
+   incbin Sprites\Picture15.spr
   Sprite148:
-   incbin Sprites\Sprite148.spr
+   incbin Sprites\Picture16.spr
   Sprite149:
-   incbin Sprites\Sprite149.spr
+   incbin Sprites\Picture17.spr
   Sprite150:
-   incbin Sprites\Sprite150.spr
+   incbin Sprites\Picture18.spr
   Sprite151:
-   incbin Sprites\Sprite151.spr
+   incbin Sprites\Picture19.spr
   Sprite152:
-   incbin Sprites\Sprite152.spr
+   incbin Sprites\Picture20.spr
   Sprite153:
-   incbin Sprites\Sprite153.spr
+   incbin Sprites\Picture21.spr
   Sprite154:
-   incbin Sprites\Sprite154.spr
+   incbin Sprites\Picture22.spr
   Sprite155:
-   incbin Sprites\Sprite155.spr
+   incbin Sprites\Picture23.spr
   Sprite156:
-   incbin Sprites\Sprite156.spr
+   incbin Sprites\Picture24.spr
   Sprite157:
-   incbin Sprites\Sprite157.spr
+   incbin Sprites\Picture25.spr
   Sprite158:
-   incbin Sprites\Sprite158.spr
+   incbin Sprites\Picture26.spr
   Sprite159:
-   incbin Sprites\Sprite159.spr
+   incbin Sprites\Picture27.spr
   Sprite160:
-   incbin Sprites\Sprite160.spr
+   incbin Sprites\Picture28.spr
   Sprite161:
    incbin Sprites\Sprite161.spr
   Sprite162:
